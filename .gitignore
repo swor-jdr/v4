@@ -1,0 +1,6 @@
+.idea
+config.php
+vendor
+cache
+.DS_Store
+install
