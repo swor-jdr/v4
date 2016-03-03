@@ -10,7 +10,7 @@
 				<ul class="dropdown-menu usermenu">
 				   <li><a title="" href="{U_UCP_PREFERENCE}"><i class="fa fa-user"></i>&nbsp;{L_UCP_PROFILE}</a></li>
 				   <li><a title="" href="{U_PRIVATEMSGS}"><i class="fa fa-inbox"></i>&nbsp;{L_UCP_MESSAGES}&nbsp;&nbsp;<span class="badge badge-info"><!-- IF S_DISPLAY_PM and S_USER_UNREAD_PRIVMSG -->{S_USER_UNREAD_PRIVMSG}<!-- ELSE -->{S_USER_NEW_PRIVMSG}<!-- ENDIF --></span></a></li>
-				   <!-- IF S_NOTIFICATIONS_DISPLAY -->	
+				   <!-- IF S_NOTIFICATIONS_DISPLAY -->
 					 <li><a title="" href="{U_VIEW_ALL_NOTIFICATIONS}"><i class="fa fa-bell"></i>&nbsp;{L_NOTIFICATIONS}&nbsp;&nbsp;<!-- IF not .notifications --><!-- ELSE --><span class="badge badge-info">{NOTIFICATIONS_COUNT}</span><!-- ENDIF --></a></li>
 				   <!-- ENDIF -->
 				   <li><a title="" href="{U_UCP_PROFILE_SETTINGS}"><i class="fa fa-cog"></i>&nbsp;{L_UCP_PROFILE_SETTINGS}</a></li>
@@ -24,9 +24,8 @@
 		</ul>
 	</div>
 	<!-- ENDIF -->
-	
+
       <ul class="nav navbar-nav navbar-nav-fancy">
-        <li class=""><a href="{U_INDEX}">{L_HOME}</a></li>
         <li class="dropdown">
              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">{L_MAIN_FORUM}&nbsp;<b class="caret"></b></a>
              <span class="dropdown-arrow"></span>
@@ -60,7 +59,7 @@
             <ul class="dropdown-menu">
                 <li><a href="{U_SEARCH}"><i class="fa fa-search fa"></i>{L_SEARCH_ADV}</a></li>
                 <!-- IF not S_IS_BOT and S_USER_LOGGED_IN -->
-				 <!-- IF S_DISPLAY_SEARCH --> 
+				 <!-- IF S_DISPLAY_SEARCH -->
 				<li><a href="{U_SEARCH_SELF}"><i class="fa fa-comments"></i>{L_SEARCH_SELF}</a></li>
 				<li><a href="{SITESPLAT_SEARCH_LAST_DAY}"><i class="fa fa-sort-numeric-asc"></i>{L_SITESPLAT_SEARCH_LAST_DAY}</a></li>
 				<li><a href="{SITESPLAT_SEARCH_WEEK}"><i class="fa fa-sort-alpha-asc"></i>{L_SITESPLAT_SEARCH_WEEK}</a></li>
@@ -74,7 +73,7 @@
         </li>
 		<!-- ENDIF -->
       </ul>
-	  
+
 	<!-- IF not S_USER_LOGGED_IN -->
     <ul class="nav navbar-nav navbar-right navbar-nav-fancy">
 	    <!-- IF not S_IS_BOT and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) -->
@@ -87,14 +86,14 @@
 		<!-- ENDIF -->
 	</ul>
 	<!-- ENDIF -->
-	  
+
 	<!-- IF S_USER_LOGGED_IN -->
 	<div class="user-login hidden-xs">
 		<ul class="nav navbar-nav navbar-right navbar-nav-fancy">
 		<!-- EVENT navigation_controls_before -->
 		<li><a class="btn-search" href="javascript:void(0)"><i class="fa fa-lightbulb-o"></i></a></li>
 		<!-- EVENT navigation_controls_after -->
-		<!-- IF S_NOTIFICATIONS_DISPLAY -->	
+		<!-- IF S_NOTIFICATIONS_DISPLAY -->
 		    <li class="dropdown dropdown-avatar dropdown-notification">
 			  <a id="notification_list_button" href="javascript:void(0)" data-toggle="dropdown"><i class="fa fa-bell"></i><!-- IF .notifications and NOTIFICATIONS_COUNT --><em class="notifications badge badge-danger">{NOTIFICATIONS_COUNT}</em><!-- ENDIF --></a>
                 <ul class="dropdown-menu user-login-drop arrow-up">
@@ -103,12 +102,12 @@
                 </ul>
             </li>
 		<!-- ENDIF -->
-			
+
 			<li class="dropdown dropdown-avatar">
 			  <a href="javascript:void(0)" data-toggle="dropdown">
 			   <!-- IF CURRENT_USER_AVATAR -->{CURRENT_USER_AVATAR}&nbsp;<!-- ELSE --><img src="{T_THEME_PATH}/images/user4.png" alt="No avatar"><!-- ENDIF -->&nbsp;<span>{L_WELCOME_INDEX}&#44;&nbsp;{CURRENT_USERNAME_SIMPLE}<i class="caret"></i></span>
 			  </a>
-                <!-- IF S_USER_NEW_PRIVMSG --><em class="notifications-pm badge badge-warning">{PM_NEW_COUNT_BADGE}</em><!-- ELSEIF S_USER_UNREAD_PRIVMSG --><em class="notifications-pm badge badge-success">{PRIVATE_MESSAGE_COUNT}</em><!-- ENDIF -->                   
+                <!-- IF S_USER_NEW_PRIVMSG --><em class="notifications-pm badge badge-warning">{PM_NEW_COUNT_BADGE}</em><!-- ELSEIF S_USER_UNREAD_PRIVMSG --><em class="notifications-pm badge badge-success">{PRIVATE_MESSAGE_COUNT}</em><!-- ENDIF -->
 				   <ul class="dropdown-menu user-login-drop arrow-up">
                         <li><!-- IF S_USER_NEW_PRIVMSG --><a href="{U_PRIVATEMSGS}">{PM_NEW_COUNT}</a><!-- ELSEIF S_USER_UNREAD_PRIVMSG--><a href="{U_PRIVATEMSGS}">{PM_UNREAD_COUNT}</a><!-- ELSE --><a href="{U_PRIVATEMSGS}">{L_NO_PMS_INFO}</a><!-- ENDIF --></li>
 						<li>

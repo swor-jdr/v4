@@ -1,0 +1,4 @@
+<?php exit; ?>
+1488401610
+683
+a:2:{s:5:"match";a:8:{i:0;s:50:"#(?<![\p{Nd}\p{L}_-])(merde)(?![\p{Nd}\p{L}_-])#iu";i:1;s:51:"#(?<![\p{Nd}\p{L}_-])(putain)(?![\p{Nd}\p{L}_-])#iu";i:2;s:50:"#(?<![\p{Nd}\p{L}_-])(chier)(?![\p{Nd}\p{L}_-])#iu";i:3;s:49:"#(?<![\p{Nd}\p{L}_-])(bite)(?![\p{Nd}\p{L}_-])#iu";i:4;s:49:"#(?<![\p{Nd}\p{L}_-])(nazi)(?![\p{Nd}\p{L}_-])#iu";i:5;s:51:"#(?<![\p{Nd}\p{L}_-])(hitler)(?![\p{Nd}\p{L}_-])#iu";i:6;s:50:"#(?<![\p{Nd}\p{L}_-])(daesh)(?![\p{Nd}\p{L}_-])#iu";i:7;s:51:"#(?<![\p{Nd}\p{L}_-])(salope)(?![\p{Nd}\p{L}_-])#iu";}s:7:"replace";a:8:{i:0;s:9:"m&amp;?!e";i:1;s:9:"p#&amp;!n";i:2;s:5:"c!#?r";i:3;s:4:"b!#e";i:4;s:4:"n#?i";i:5;s:5:"h?!#r";i:6;s:9:"d#&amp;?h";i:7;s:9:"s#?&amp;e";}}

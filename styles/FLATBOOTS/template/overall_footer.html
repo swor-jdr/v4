@@ -16,14 +16,6 @@
         </div>
     </section>
 
-<!-- EVENT call_to_action_before -->	
-  <!-- IF FLATBOOTS_MINI_CMS_ENABLED -->
-     <!-- EVENT call_to_action_body_instead -->
-  <!-- ELSE --> 
-	<!-- INCLUDE addons/call_to_action_body.html -->
-  <!-- ENDIF -->
-<!-- EVENT call_to_action_after -->  
-	
 	<!-- IF FLATBOOTS_MINI_CMS_ENABLED -->
 		<!-- EVENT prefooter_instead -->
 	<!-- ELSE -->
@@ -31,17 +23,17 @@
 		<div class="container center">
 			<div class="row">
 				<div class="col-sm-5 twitter">
-					<div class="thumb"><i class="fa fa-paw"></i></div>
+					<div class="thumb"><i class="fa fa-rebel"></i></div>
 					<div class="text">
 						<h3>{L_FLATBOOTS_ABOUT_TITLE}</h3>
 						<p>{L_FLATBOOTS_ABOUT_PART_ONE}</p>
-						<a href="#"><strong>{L_READ_MORE}</strong></a>
+						<!--<a href="#"><strong>{L_READ_MORE}</strong></a>-->
 					</div>
 				</div>
 				<div class="col-sm-5 col-sm-offset-2 twitter">
 					<div class="thumb"><i class="fa fa-twitter"></i></div>
 					<div class="text">
-						<h3><a href="https://twitter.com/SiteSplat">{L_JOIN_US_TWITTER}&nbsp;<small>@SiteSplat</small></a></h3>
+						<h3><a href="https://twitter.com/swor_jdr">{L_JOIN_US_TWITTER}&nbsp;<small>@swor_jdr</small></a></h3>
 						 <div id="twitter-feed"></div>
 					</div>
 				</div>
@@ -50,21 +42,19 @@
 		 <div class="section-bg"></div>
 	</section>
 	<!-- ENDIF -->
-    
+
 	<footer class="burned-asphalt"> <!-- Footer block -->
 		<div class="midnight-" id="sub-footer">
 			<div class="container">
 				<div class="row bottomLinks">
-				
+
 					<div class="col-sm-6 sm-direction">
 					 <nav>
 					<!-- IF FLATBOOTS_MINI_CMS_ENABLED -->
 						<!-- EVENT footer_links_instead -->
 					<!-- ELSE -->
 						<ul class="list-inline footer-nav">
-						 <li><a href="http://goo.gl/LvmwlF" title="">{L_ADVERTISE}</a></li>
 						 <li><a href="{U_PRIVACY}" title="">{L_PRIVACY}</a></li>
-						 <li><a href="{U_DMCA}" title="">{L_DMCA}</a></li>
 						 <li><a href="{U_TERMS_USE}" title="">{L_TERMS}</a></li>
 						 <!-- EVENT overall_footer_teamlink_before -->
 						 <!-- IF U_CONTACT_US -->
@@ -72,31 +62,31 @@
 						 <!-- ENDIF -->
 						 <!-- EVENT overall_footer_teamlink_after -->
 						</ul>
-					<!-- ENDIF -->	
+					<!-- ENDIF -->
 					 </nav>
 					</div>
-						
-					<div class="col-sm-6 sm-direction">	
+
+					<div class="col-sm-6 sm-direction">
 						<div class="clearfix socialbar">
 						<!-- IF FLATBOOTS_MINI_CMS_ENABLED -->
 								<!-- EVENT footer_social_instead -->
 						<!-- ELSE -->
 							<div class="social-network">
-								<a class="google-plus-color" title="Google+" href="https://plus.google.com/u/0/100435978342273345264/"><i class="fa fa-google-plus"></i></a>
+								<!-- <a class="google-plus-color" title="Google+" href="https://plus.google.com/u/0/100435978342273345264/"><i class="fa fa-google-plus"></i></a>
 								<a class="github-color" title="Github" href="#2"><i class="fa fa-github"></i></a>
-								<a class="behance-color" title="Behance" href="#3"><i class="fa fa-behance"></i></a>
+								<a class="behance-color" title="Behance" href="#3"><i class="fa fa-behance"></i></a>-->
 								<!-- <a class="dropbox-color" title="Dropbox" href="#4"><i class="fa fa-dropbox"></i></a> -->
 								<!-- <a class="pinterest-color" title="Pinterest" href="#5"><i class="fa fa-pinterest"></i></a> -->
-								<a class="facebook-color" title="Facebook" href="#6"><i class="fa fa-facebook"></i></a>
-								<a class="twitter-color" title="Twitter" href="https://twitter.com/SiteSplat"><i class="fa fa-twitter"></i></a>
+								<a class="facebook-color" title="Facebook" href="https://www.facebook.com/sworjdr/?fref=ts"><i class="fa fa-facebook"></i></a>
+								<a class="twitter-color" title="Twitter" href="https://twitter.com/swor_jdr"><i class="fa fa-twitter"></i></a>
 								<!-- <a class="bitbucket-color" title="Bitbucket" href="#8"><i class="fa fa-bitbucket"></i></a> -->
-								<a class="envato-color" title="Envato" href="http://themeforest.net/user/ThemeSplat/portfolio?ref=ThemeSplat"><i class="icon-moon-envatoleaf"></i></a>
+								<!--<a class="envato-color" title="Envato" href="http://themeforest.net/user/ThemeSplat/portfolio?ref=ThemeSplat"><i class="icon-moon-envatoleaf"></i></a>-->
 								<a class="rss-color hidden-xs" title="rss" href="{U_FEED}"><i class="fa fa-rss"></i></a>
 							</div>
-						<!-- ENDIF -->	
+						<!-- ENDIF -->
 						</div>
-					</div>	
-					
+					</div>
+
 					<div class="col-sm-6 sm-direction">
 					 <p class="copyrights">
 					  <!-- EVENT overall_footer_copyright_prepend -->
@@ -104,7 +94,7 @@
 					  <!-- EVENT overall_footer_copyright_append -->
 					 </p>
 					</div>
-					
+
 					<div class="col-sm-6 sm-direction">
 					  <p class="debug-output">
 					  <!-- EVENT overall_footer_timezone_before -->
@@ -114,7 +104,7 @@
 						<!-- {L_FLATBOOTS_VERSION} -->
 					  </p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -122,7 +112,7 @@
 
 <a id="totop" class="top-flat" href="" onclick="return false;" style="display:none;"></a>
 
-<div class="hidden"><!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF --></div> 
+<div class="hidden"><!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF --></div>
 
 <!-- injected via core and ajax JS for the return confirmation actions -->
    <div id="page-footer">
@@ -135,12 +125,12 @@
 		<h3 class="alert_title">&nbsp;</h3>
 		 <p class="alert_text"></p>
 	</div>
-	
+
 	<div id="phpbb_confirm" class="alert alert-default phpbb_alert">
 		<button type="button" class="close alert_close" data-dismiss="alert"><span class="awe-remove-circle"></span></button>
 		<div class="alert_text"></div>
 	</div>
-  </div>	
+  </div>
 <!-- injected via core and ajax JS for the return confirmation actions -->
 
 <!-- IF S_USER_LOGGED_IN and (SCRIPT_NAME == "viewforum" or SCRIPT_NAME == "viewtopic") -->
@@ -197,7 +187,7 @@
 								<button type="submit" class="btn btn-default" id="load" name="login" value="{L_LOGIN}" data-loading-text="{L_LOADING_LOG_IN} <i class='fa fa-spin fa-spinner fa-lg icon-white'></i>">{L_LOGIN}</button>
 								{S_LOGIN_REDIRECT}
 							</fieldset>
-						</form> 
+						</form>
 					</div>
 					<div class="modal-footer">
 					</div>
@@ -221,12 +211,12 @@ head.ready(function () {
 	$('.footable').footable();$(".selectpicker").selectpicker();$(".selectpicker").tooltip("disable");var totop=$("#totop");totop.click(function(){$("html, body").stop(true,true).animate({scrollTop:0},500);return false});$(window).scroll(function(){if($(this).scrollTop()>600){totop.fadeIn()}else{totop.fadeOut()}});$("button[data-loading-text], input[data-loading-text], .btn-load").click(function(){var e=$(this);e.button("loading");setTimeout(function(){e.button("reset")},3e3)});
 	$("input").iCheck({checkboxClass:"icheckbox_flat-aero",radioClass:"iradio_flat-aero"});$(".btn-search").click(function(){$(".search-input").toggleClass("open").find("input").focus()});$(".close").click(function(){$(this).prev("input").val("").parents(".search-input").removeClass("open")});$(".nav-tog").click(function(){if($(this).hasClass("neutro")){$(this).removeClass("neutro").addClass("open")}else{$(this).removeClass("open").addClass("neutro")}});
 	$('input[data-reset-on-edit]').on('keyup', function() {$(this.getAttribute('data-reset-on-edit')).val('');});
-	function isTouchDevice(){return true==("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch);}if(isTouchDevice()===false){jQuery(function(e){e("a").tooltip({html:true,container:"body"})});}	
-    $('#notification_list_button').click(function(){setTimeout(function(){$(".nano").nanoScroller();},0);});	
+	function isTouchDevice(){return true==("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch);}if(isTouchDevice()===false){jQuery(function(e){e("a").tooltip({html:true,container:"body"})});}
+    $('#notification_list_button').click(function(){setTimeout(function(){$(".nano").nanoScroller();},0);});
 });
 // some function that depends on bootstrap and jquery
 head.load("{T_THEME_PATH}/vendors/twitterFetcher.min.js");
-head.ready('twitterFetcher.min.js',function(twit){var twit={"id":'<!-- IF FLATBOOTS_MINI_CMS_ENABLED -->{TWITTER_ID}<!-- ELSE -->391407906655965184<!-- ENDIF -->',"domId":'twitter-feed',"maxTweets":1,"showUser":false,"showImages":true,"enableLinks":true};twitterFetcher.fetch(twit);});
+head.ready('twitterFetcher.min.js',function(){var twit={"id":'2726753526',"domId":'twitter-feed',"maxTweets":1,"showUser":false,"showImages":true,"enableLinks":true};twitterFetcher.fetch(twit);});
 </script>
 <!-- injected via a module or an include -->
 

@@ -1,0 +1,5 @@
+<?php exit; ?>
+1457019894
+SELECT * FROM phpbb_bbcodes WHERE bbcode_id IN (18, 22)
+1024
+a:2:{i:0;a:10:{s:9:"bbcode_id";s:2:"18";s:10:"bbcode_tag";s:2:"hr";s:15:"bbcode_helpline";s:17:"Ajouter une barre";s:18:"display_on_posting";s:1:"1";s:12:"bbcode_match";s:9:"[hr][/hr]";s:10:"bbcode_tpl";s:6:"<hr />";s:16:"first_pass_match";s:16:"!\[hr\]\[/hr\]!i";s:18:"first_pass_replace";s:19:"[hr:$uid][/hr:$uid]";s:17:"second_pass_match";s:19:"[hr:$uid][/hr:$uid]";s:19:"second_pass_replace";s:0:"";}i:1;a:10:{s:9:"bbcode_id";s:2:"22";s:10:"bbcode_tag";s:4:"left";s:15:"bbcode_helpline";s:0:"";s:18:"display_on_posting";s:1:"0";s:12:"bbcode_match";s:19:"[left]{TEXT}[/left]";s:10:"bbcode_tpl";s:43:"<div style="text-align: left;">{TEXT}</div>";s:16:"first_pass_match";s:27:"!\[left\](.*?)\[/left\]!ies";s:18:"first_pass_replace";s:136:"'[left:$uid]'.str_replace(array("\r\n", '\"', '\'', '(', ')'), array("\n", '"', '&#39;', '&#40;', '&#41;'), trim('${1}')).'[/left:$uid]'";s:17:"second_pass_match";s:35:"!\[left:$uid\](.*?)\[/left:$uid\]!s";s:19:"second_pass_replace";s:41:"<div style="text-align: left;">${1}</div>";}}

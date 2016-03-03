@@ -10,99 +10,103 @@
 *****************************************************************/
 /* ===[ CSS HOOK TOP ]=== */
 body {
-    color: #8d9aa5;
+    color: #e7e7e7;
     margin: 0;
     font-family: 'Roboto','Arial','Helvetica',sans-serif;
     background-color: #ECF0F1;
-    background: url("./images/body_bg.jpg") repeat fixed 0 0 #26bcb5;
+    background: url("./images/body_bg.jpg") repeat fixed 0 0 #423A36;
 }
 
 .masthead:before {
-    background: url("./images/header_fond.jpg") no-repeat cover #0088cc;
+    /*background: url("./images/header_fond.jpg") no-repeat #F1A12E;*/
 }
 .masthead:before {
--webkit-animation-iteration-count: 0;
-            animation-iteration-count: 0;
+	-webkit-animation-iteration-count: 0;
+    animation-iteration-count: 0;
 }
 /* BBOOTS / FLATBOOTS Custom Colors Generated With COLORIZE - www.sitesplat.com - copyright (c) 2014 SiteSplat.com */
 .logo span {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .logo-transition a:after {
-	color: #0088cc;
+	color: #F1A12E;
+}
+
+.navbar-inverse {
+	background:#0C0A0B;
 }
 
 .navBtn {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 .navBtn > a {
-	border-left: 1px solid #005580;
+	border-left: 1px solid #D5DCE0;
 }
 
 .submenu {
-	border-bottom: 4px solid #0088cc;
+	border-bottom: 4px solid #F1A12E;
 }
 
 .nav-icon:hover [class*="has-sub"] {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .submenu li:hover > a {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .submenu li:hover > span {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 .subheader {
-	border-top: 4px solid #0088cc;
+	border-top: 4px solid #F1A12E;
 }
 
 .side-segment h3:after,
 .side-segment h2:after {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 .alert-info {
-	background-color: #0088cc;
-	border-color: #0088cc;
+	background-color: #F1A12E;
+	border-color: #F1A12E;
 }
 
 .label-info,
 .badge-info {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 .progress-info.progress-striped .bar,
 .progress-striped .bar-info {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 #scrollbar-one .thumb .end,
 #scrollbar-two .thumb .end {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 #scrollbar-one .thumb,
 #scrollbar-two .thumb {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 .tabbable-custom .nav-tabs > li.active {
-	border-top: 3px solid #0088cc;
+	border-top: 3px solid #F1A12E;
 }
 
 .ver-inline-menu li.active a,
 .ver-inline-menu li.active i {
-	background: none repeat scroll 0 0 #0088cc;
-	border-left: 1px solid #005580;
+	background: none repeat scroll 0 0 #F1A12E;
+	border-left: 1px solid #D5DCE0;
 }
 
 .ver-inline-menu li.active:after {
-	border-left: 6px solid #0088cc;
+	border-left: 6px solid #F1A12E;
 }
 
 .ver-inline-menu li.active i {
@@ -110,79 +114,75 @@ body {
 }
 
 .table-primary thead th {
-	background-color: #0088cc;
-	border-color: #0088cc !important;
-}
-
-a.forumtitle {
-	color: #0088cc;
+	background-color: #F1A12E;
+	border-color: #F1A12E !important;
 }
 
 .twitter-layout:before {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 footer .interact a:hover {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 footer {
-	border-top: 3px solid #0088cc;
+	border-top: 3px solid #F1A12E;
 }
 
 footer .bottomLinks small a {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 footer .bottomLinks a:hover {
-	border-bottom: 1px solid #0088cc;
+	border-bottom: 1px solid #F1A12E;
 }
 
 #footerContent blockquote p span {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
-	background-color: #0088cc;
-	border-color: #0088cc;
+	background-color: #F1A12E;
+	border-color: #F1A12E;
 }
 
 .btn-link {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .btn-link:hover,
 .btn-link:focus {
-	color: #005580;
+	color: #D5DCE0;
 }
 
 .pager li > a:hover,
 .pager li > a:focus {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 /* BBOOTS - FLATBOOTS Main Links color */
 a {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 a:hover,
 a:focus {
-	color: #005580;
+	color: #D5DCE0;
 }
 
 blockquote {
-	border-left-color: #0088cc;
+	border-left-color: #F1A12E;
 }
 
 blockquote.pull-right {
-	border-right-color: #0088cc;
+	border-right-color: #F1A12E;
 }
 
 .btn-primary {
 	color: #ffffff;
-	background-color: #0088cc;
+	background-color: #F1A12E;
 	border: 0;
 }
 
@@ -200,27 +200,36 @@ blockquote.pull-right {
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-	color: #0088cc;
+	color: #F1A12E;
 }
 
 .dropdown-submenu:hover > a:after {
-	border-left-color: #0088cc;
+	border-left-color: #F1A12E;
 }
 /* Button Backgrounds */
 /* FLATBOOTS Custom Color Generated with COLORIZE */
 /* FLATBOOTS Forum Panel Heading */
 .panel-forum > .panel-heading {
-	background-color: #0088cc;
+/*	background-color: #3b5982;*/
 }
+
+.panel-body {
+	background:#191919;
+}
+
+.dropdown-menu {
+	background:#2F3135;
+}
+
 /* FLATBOOTS Button Top */
 .top-flat {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 
 footer {
@@ -228,11 +237,62 @@ footer {
 }
 /* FLATBOOTS Teaser Header Background color */
 .masthead:before {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
 /* FLATBOOTS Footer Call to Action Background Color */
 .mastbottom {
-	background-color: #0088cc;
+	background-color: #F1A12E;
 }
+
+.swor__header__logo {
+	width: 40px;
+	height: auto;
+	position: relative;
+	top: -10px;
+}
+
+.table-primary tbody tr:nth-child(2n+1) td, .table-primary tbody tr:nth-child(2n+1) th {
+	background: #191919;
+}
+.table .stats-col {
+	background: #191919 !important;
+}
+
+.panel {
+	background-color:#161616;
+}
+
+.form-control {
+	background:#121314;
+	color:#e7e7e7;
+}
+
+.nav-tabs>li.active>a {
+	background: #28292B;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+	background: #28292B;
+}
+
+.list-group-item {
+	background: #121314;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+	background: #28292B;
+	color:#D5DCE0;
+}
+
+.pagination>li>a, .pagination>li>span {
+	background:#121314;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	background: #28292B;
+	border-color:#3d3e40;
+	color: #b1b1b2;
+}
+
 
 /* ===[ CSS HOOK BOTTOM ]=== */
