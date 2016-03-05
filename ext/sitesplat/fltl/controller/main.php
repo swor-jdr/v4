@@ -116,6 +116,7 @@ class main
 				}
 				echo '<script>
 					var start = ' . (($start + $this->config['fltl_limit'] >= $total) ? 0 : $start + $this->config['fltl_limit']) . ';
+					console.log(' . (($start + $this->config['fltl_limit'] >= $total) ? 0 : $start + $this->config['fltl_limit']) . ');
 					$(\'.rtbutton\').text(\'' . (($start + $this->config['fltl_limit'] >= $total) ? $this->user->lang['BACK_TO_START'] : $this->user->lang['VIEW_MORE_TOPICS']) . '\');
 					</script>';
 			$this->db->sql_freeresult($result);	
