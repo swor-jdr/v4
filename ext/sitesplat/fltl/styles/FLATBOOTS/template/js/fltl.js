@@ -5,7 +5,7 @@ head.ready(function () {
 
 		var hack = new Date();
 	
-		$("#rtblock").load('app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()) + ' #fltl', function() {
+		$("#fltl").load('app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()) + ' #fltl > *', function() {
 		}, function(err) {
 			console.error(err);
 		});
