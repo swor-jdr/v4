@@ -81,7 +81,7 @@ class main
 		{
 			$url = generate_board_url() . '/';
 			foreach($rows as $row)
-			{
+				{
 				strip_bbcode($row['post_text']);
 				$row['post_text'] = censor_text($row['post_text']);
 				$row['post_text'] = (utf8_strlen($row['post_text']) > 50) ? utf8_substr($row['post_text'], 0, 50) . '&#91;&hellip;&#93;' : $row['post_text'];
@@ -115,8 +115,8 @@ class main
 					</div>';
 				}
 				echo '<script>
-					var start = ' . (($start + $this->config['fltl_limit'] >= $total) ? 0 : $start + $this->config['fltl_limit']) . ';
 					console.log(' . (($start + $this->config['fltl_limit'] >= $total) ? 0 : $start + $this->config['fltl_limit']) . ');
+					var start = 6;
 					$(\'.rtbutton\').text(\'' . (($start + $this->config['fltl_limit'] >= $total) ? $this->user->lang['BACK_TO_START'] : $this->user->lang['VIEW_MORE_TOPICS']) . '\');
 					</script>';
 			$this->db->sql_freeresult($result);	
