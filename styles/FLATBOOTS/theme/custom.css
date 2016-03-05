@@ -234,6 +234,7 @@ blockquote.pull-right {
 
 footer {
 	border-top: medium none;
+	padding-bottom: 60px;
 }
 /* FLATBOOTS Teaser Header Background color */
 .masthead:before {
