@@ -6,7 +6,8 @@ head.ready(function () {
 			url:'app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()),
 			dataType:'html',
 			success:function(response){
-				$('#fltl').html(response);
+				$("#fltl").html($(response).find("#fltl"));
+				$("body").append($(response).find("#script-fltl"));
 			}
 		});
 	});
