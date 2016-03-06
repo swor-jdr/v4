@@ -201,51 +201,6 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
         // line 87
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
-
-\t\t\t\t\t<div class=\"col-sm-6 sm-direction\">
-\t\t\t\t\t <p class=\"copyrights\">
-\t\t\t\t\t  ";
-        // line 92
-        // line 93
-        echo "\t\t\t\t\t  <small>";
-        echo $this->env->getExtension('phpbb')->lang("HANDCRAFTED");
-        echo "</small>&nbsp;<i class=\"fa fa-heart text-flatboots-red\"></i>&nbsp;<small>";
-        echo $this->env->getExtension('phpbb')->lang("AND");
-        echo "</small>&nbsp;<i class=\"fa fa-coffee\"></i>&nbsp;<small>";
-        echo $this->env->getExtension('phpbb')->lang("BY");
-        echo "<a href=\"http://www.sitesplat.com/\" title=\"SiteSplat.com\" target=\"_blank\">&nbsp;";
-        echo $this->env->getExtension('phpbb')->lang("SITESPLAT");
-        echo "</a></small>
-\t\t\t\t\t  ";
-        // line 94
-        // line 95
-        echo "\t\t\t\t\t </p>
-\t\t\t\t\t</div>
-
-\t\t\t\t\t<div class=\"col-sm-6 sm-direction\">
-\t\t\t\t\t  <p class=\"debug-output\">
-\t\t\t\t\t  ";
-        // line 100
-        // line 101
-        echo "\t\t\t\t\t\t<small>&#45;&nbsp;";
-        echo (isset($context["S_TIMEZONE"]) ? $context["S_TIMEZONE"] : null);
-        echo "&nbsp;&#45;</small>
-\t\t\t\t\t  ";
-        // line 102
-        // line 103
-        echo "\t\t\t\t\t\t";
-        if ((isset($context["DEBUG_OUTPUT"]) ? $context["DEBUG_OUTPUT"] : null)) {
-            echo " <small>";
-            echo (isset($context["DEBUG_OUTPUT"]) ? $context["DEBUG_OUTPUT"] : null);
-            echo "</small>";
-        }
-        // line 104
-        echo "\t\t\t\t\t\t<!-- ";
-        echo $this->env->getExtension('phpbb')->lang("FLATBOOTS_VERSION");
-        echo " -->
-\t\t\t\t\t  </p>
-\t\t\t\t\t</div>
-
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
@@ -254,7 +209,7 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 <a id=\"totop\" class=\"top-flat\" href=\"\" onclick=\"return false;\" style=\"display:none;\"></a>
 
 <div class=\"hidden\">";
-        // line 115
+        // line 96
         if ( !(isset($context["S_IS_BOT"]) ? $context["S_IS_BOT"] : null)) {
             echo (isset($context["RUN_CRON_TASK"]) ? $context["RUN_CRON_TASK"] : null);
         }
@@ -263,7 +218,7 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 <!-- injected via core and ajax JS for the return confirmation actions -->
    <div id=\"page-footer\">
 \t<div id=\"darkenwrapper\" data-ajax-error-title=\"";
-        // line 119
+        // line 100
         echo $this->env->getExtension('phpbb')->lang("AJAX_ERROR_TITLE");
         echo "\" data-ajax-error-text=\"";
         echo $this->env->getExtension('phpbb')->lang("AJAX_ERROR_TEXT");
@@ -278,7 +233,7 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 \t</div>
 
 \t<div id=\"phpbb_alert\" class=\"alert alert-default phpbb_alert\" data-l-err=\"";
-        // line 123
+        // line 104
         echo $this->env->getExtension('phpbb')->lang("ERROR");
         echo "\" data-l-timeout-processing-req=\"";
         echo $this->env->getExtension('phpbb')->lang("TIMEOUT_PROCESSING_REQ");
@@ -296,33 +251,33 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 <!-- injected via core and ajax JS for the return confirmation actions -->
 
 ";
-        // line 136
+        // line 117
         if (((isset($context["S_USER_LOGGED_IN"]) ? $context["S_USER_LOGGED_IN"] : null) && (((isset($context["SCRIPT_NAME"]) ? $context["SCRIPT_NAME"] : null) == "viewforum") || ((isset($context["SCRIPT_NAME"]) ? $context["SCRIPT_NAME"] : null) == "viewtopic")))) {
-            // line 137
+            // line 118
             echo "\t<div class=\"modal fade\" id=\"BreadcrumbMap\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"BreadcrumbsLabel\">
 \t  <div class=\"modal-dialog\" role=\"document\">
 \t\t<div class=\"modal-content\">
 \t\t  <div class=\"modal-header\">
 \t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span class=\"awe-remove-circle\"></span></button>
 \t\t\t<h4 class=\"modal-title\" id=\"BreadcrumbsLabel\">";
-            // line 142
+            // line 123
             echo $this->env->getExtension('phpbb')->lang("NAVIGATION");
             echo "</h4>
 \t\t  </div>
 \t\t  <div class=\"modal-body file-tree\">
 \t\t   <ul>
 \t\t\t<li class=\"root\"><a href=\"";
-            // line 146
+            // line 127
             echo (isset($context["U_INDEX"]) ? $context["U_INDEX"] : null);
             echo "\">";
             echo $this->env->getExtension('phpbb')->lang("INDEX");
             echo "</a></li>
 \t\t\t";
-            // line 147
+            // line 128
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["loops"]) ? $context["loops"] : null), "navlinks", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["navlinks"]) {
-                // line 148
+                // line 129
                 echo "\t\t\t   <li><a href=\"";
                 echo $this->getAttribute($context["navlinks"], "U_VIEW_FORUM", array());
                 echo "\">";
@@ -333,7 +288,7 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['navlinks'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 150
+            // line 131
             echo "\t\t   </ul>
 \t\t    <i class=\"icon-compass fa fa-compass\"></i>
 \t\t  </div>
@@ -344,19 +299,19 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 \t</div>
 \t";
         }
-        // line 159
+        // line 140
         echo "
 \t";
-        // line 160
+        // line 141
         if ((isset($context["ENABLE_POPUP_LOGIN"]) ? $context["ENABLE_POPUP_LOGIN"] : null)) {
-            // line 161
+            // line 142
             echo "\t\t<div class=\"modal fade\" id=\"modal-login\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
 \t\t\t<div class=\"modal-dialog\">
 \t\t\t\t<div class=\"modal-content\">
 \t\t\t\t\t<div class=\"modal-header\">
 \t\t\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
 \t\t\t\t\t\t<h3 class=\"modal-title\">";
-            // line 166
+            // line 147
             echo (isset($context["SITENAME"]) ? $context["SITENAME"] : null);
             echo "&nbsp;";
             echo $this->env->getExtension('phpbb')->lang("LOGIN");
@@ -364,48 +319,48 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"modal-body\">
 \t\t\t\t\t\t<form method=\"post\" action=\"";
-            // line 169
+            // line 150
             echo (isset($context["S_LOGIN_ACTION"]) ? $context["S_LOGIN_ACTION"] : null);
             echo "\">
 \t\t\t\t\t\t\t<fieldset>
 \t\t\t\t\t\t\t\t<label for=\"username\" class=\"control-label\">";
-            // line 171
+            // line 152
             echo $this->env->getExtension('phpbb')->lang("USERNAME");
             echo $this->env->getExtension('phpbb')->lang("COLON");
             echo "</label>
 \t\t\t\t\t\t\t\t<div class=\"input-icon left\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-user\"></i>
 \t\t\t\t\t\t\t\t\t<input class=\"form-control\" type=\"text\" name=\"username\" id=\"username\" placeholder=\"";
-            // line 174
+            // line 155
             echo $this->env->getExtension('phpbb')->lang("USERNAME");
             echo "\">
 \t\t\t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t\t\t<label for=\"password\" class=\"control-label\">";
-            // line 177
+            // line 158
             echo $this->env->getExtension('phpbb')->lang("PASSWORD");
             echo $this->env->getExtension('phpbb')->lang("COLON");
             echo "</label>
 \t\t\t\t\t\t\t\t<div class=\"input-icon left\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-key\"></i>
 \t\t\t\t\t\t\t\t\t<input class=\"form-control\" type=\"password\" name=\"password\" id=\"password\" placeholder=\"";
-            // line 180
+            // line 161
             echo $this->env->getExtension('phpbb')->lang("PASSWORD");
             echo "\">
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t";
-            // line 182
+            // line 163
             if ((isset($context["S_AUTOLOGIN_ENABLED"]) ? $context["S_AUTOLOGIN_ENABLED"] : null)) {
-                // line 183
+                // line 164
                 echo "\t\t\t\t\t\t\t\t\t<div class=\"controls controls-row\">
 \t\t\t\t\t\t\t\t\t\t<div class=\"radio\"><input type=\"checkbox\" name=\"autologin\" id=\"autologin-pop\"><label for=\"autologin-pop\">";
-                // line 184
+                // line 165
                 echo $this->env->getExtension('phpbb')->lang("LOG_ME_IN");
                 echo "</label></div>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t";
             }
-            // line 187
+            // line 168
             echo "\t\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default\" id=\"load\" name=\"login\" value=\"";
             echo $this->env->getExtension('phpbb')->lang("LOGIN");
             echo "\" data-loading-text=\"";
@@ -414,7 +369,7 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
             echo $this->env->getExtension('phpbb')->lang("LOGIN");
             echo "</button>
 \t\t\t\t\t\t\t\t";
-            // line 188
+            // line 169
             echo (isset($context["S_LOGIN_REDIRECT"]) ? $context["S_LOGIN_REDIRECT"] : null);
             echo "
 \t\t\t\t\t\t\t</fieldset>
@@ -427,12 +382,12 @@ class __TwigTemplate_8ad25fd4b2f9e77037fc419fd913d613e01eafa806ffd92ef88dc86b03b
 \t\t</div><!-- /.modal -->
 \t";
         }
-        // line 198
+        // line 179
         echo "
 <script>
 // this loads jquery asyncrounously & in parallel
 head.load(\"//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js\", \"";
-        // line 201
+        // line 182
         echo (isset($context["T_THEME_PATH"]) ? $context["T_THEME_PATH"] : null);
         echo "/vendors/bootstrap/js/bootstrap.min.js\", \"";
         echo (isset($context["T_THEME_PATH"]) ? $context["T_THEME_PATH"] : null);
@@ -451,12 +406,12 @@ head.load(\"//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js\", \"";
 
 <!-- we use this event to load the JS scripts properly via the extension system -->
 ";
-        // line 205
+        // line 186
         $previous_look_up_order = $this->env->getNamespaceLookUpOrder();
         $this->env->setNamespaceLookUpOrder(array('sitesplat_fltl', '__main__'));
         $this->env->loadTemplate('@sitesplat_fltl/event/overall_footer_after.html')->display($context);
         $this->env->setNamespaceLookUpOrder($previous_look_up_order);
-        // line 206
+        // line 187
         echo "
 <!-- injected via a module or an include -->
 <script>
@@ -470,7 +425,7 @@ head.ready(function () {
 });
 // some function that depends on bootstrap and jquery
 head.load(\"";
-        // line 218
+        // line 199
         echo (isset($context["T_THEME_PATH"]) ? $context["T_THEME_PATH"] : null);
         echo "/vendors/twitterFetcher.min.js\");
 head.ready('twitterFetcher.min.js',function(){var twit={\"id\":'2726753526',\"domId\":'twitter-feed',\"maxTweets\":1,\"showUser\":false,\"showImages\":true,\"enableLinks\":true};twitterFetcher.fetch(twit);});
@@ -478,17 +433,17 @@ head.ready('twitterFetcher.min.js',function(){var twit={\"id\":'2726753526',\"do
 <!-- injected via a module or an include -->
 
 ";
-        // line 223
+        // line 204
         echo $this->getAttribute((isset($context["definition"]) ? $context["definition"] : null), "SCRIPTS", array());
         echo "
 
 ";
-        // line 225
+        // line 206
         if ((isset($context["S_PLUPLOAD"]) ? $context["S_PLUPLOAD"] : null)) {
-            // line 226
+            // line 207
             echo "<!-- // lets load the plupload crap super huge files becuase... wait for it wait for it. \"swear here\" -->
 ";
-            // line 227
+            // line 208
             $location = "plupload.html";
             $namespace = false;
             if (strpos($location, '@') === 0) {
@@ -496,22 +451,27 @@ head.ready('twitterFetcher.min.js',function(){var twit={\"id\":'2726753526',\"do
                 $previous_look_up_order = $this->env->getNamespaceLookUpOrder();
                 $this->env->setNamespaceLookUpOrder(array($namespace, '__main__'));
             }
-            $this->loadTemplate("plupload.html", "overall_footer.html", 227)->display($context);
+            $this->loadTemplate("plupload.html", "overall_footer.html", 208)->display($context);
             if ($namespace) {
                 $this->env->setNamespaceLookUpOrder($previous_look_up_order);
             }
         }
-        // line 229
+        // line 210
         echo "
 ";
-        // line 230
-        // line 231
+        // line 211
+        // line 212
         echo "
-<!-- Google Analytics: change UA-XXXXXXXX-X to be your site's ID. -->
-";
-        // line 233
-        echo (isset($context["GOOGLE_ANALYTICS"]) ? $context["GOOGLE_ANALYTICS"] : null);
-        echo "
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62372292-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
 ";
@@ -529,6 +489,6 @@ head.ready('twitterFetcher.min.js',function(){var twit={\"id\":'2726753526',\"do
 
     public function getDebugInfo()
     {
-        return array (  513 => 233,  509 => 231,  508 => 230,  505 => 229,  492 => 227,  489 => 226,  487 => 225,  482 => 223,  474 => 218,  460 => 206,  455 => 205,  436 => 201,  431 => 198,  418 => 188,  409 => 187,  403 => 184,  400 => 183,  398 => 182,  393 => 180,  386 => 177,  380 => 174,  373 => 171,  368 => 169,  360 => 166,  353 => 161,  351 => 160,  348 => 159,  337 => 150,  326 => 148,  322 => 147,  316 => 146,  309 => 142,  302 => 137,  300 => 136,  282 => 123,  267 => 119,  258 => 115,  243 => 104,  236 => 103,  235 => 102,  230 => 101,  229 => 100,  222 => 95,  221 => 94,  210 => 93,  209 => 92,  202 => 87,  196 => 84,  184 => 74,  181 => 73,  179 => 72,  177 => 71,  170 => 66,  166 => 64,  164 => 63,  156 => 61,  153 => 60,  152 => 59,  146 => 58,  140 => 57,  137 => 56,  134 => 55,  132 => 54,  130 => 53,  120 => 45,  108 => 36,  99 => 30,  95 => 29,  91 => 28,  83 => 22,  80 => 21,  78 => 20,  76 => 19,  71 => 16,  52 => 15,  47 => 12,  33 => 10,  31 => 9,  28 => 8,  27 => 7,  20 => 2,  19 => 1,);
+        return array (  464 => 212,  463 => 211,  460 => 210,  447 => 208,  444 => 207,  442 => 206,  437 => 204,  429 => 199,  415 => 187,  410 => 186,  391 => 182,  386 => 179,  373 => 169,  364 => 168,  358 => 165,  355 => 164,  353 => 163,  348 => 161,  341 => 158,  335 => 155,  328 => 152,  323 => 150,  315 => 147,  308 => 142,  306 => 141,  303 => 140,  292 => 131,  281 => 129,  277 => 128,  271 => 127,  264 => 123,  257 => 118,  255 => 117,  237 => 104,  222 => 100,  213 => 96,  202 => 87,  196 => 84,  184 => 74,  181 => 73,  179 => 72,  177 => 71,  170 => 66,  166 => 64,  164 => 63,  156 => 61,  153 => 60,  152 => 59,  146 => 58,  140 => 57,  137 => 56,  134 => 55,  132 => 54,  130 => 53,  120 => 45,  108 => 36,  99 => 30,  95 => 29,  91 => 28,  83 => 22,  80 => 21,  78 => 20,  76 => 19,  71 => 16,  52 => 15,  47 => 12,  33 => 10,  31 => 9,  28 => 8,  27 => 7,  20 => 2,  19 => 1,);
     }
 }

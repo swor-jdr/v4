@@ -31,7 +31,7 @@ var start = ";
             if (!file_exists($local_file)) {
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
-            $asset->add_assets_version('15');
+            $asset->add_assets_version('28');
             $asset_file = $asset->get_url();
             }
         }

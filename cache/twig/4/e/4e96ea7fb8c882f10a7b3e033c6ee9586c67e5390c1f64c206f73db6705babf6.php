@@ -95,7 +95,7 @@ class __TwigTemplate_4e96ea7fb8c882f10a7b3e033c6ee9586c67e5390c1f64c206f73db6705
 
 <div id=\"rtbtnrow\" class=\"row text-center\">
 \t<div class=\"col-md-12\">
-\t  <a class=\"rtbutton btn btn-default btn-block btn-lazy\" href=\"javascript:void(0)\">";
+\t  <a class=\"rtbutton btn btn-default btn-block btn-lazy\" href=\"#\">";
             // line 33
             echo $this->env->getExtension('phpbb')->lang("VIEW_MORE_TOPICS");
             echo "</a>
