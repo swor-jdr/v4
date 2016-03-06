@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
     'TOPICS_ROW_NOT_APPROVED'      => 'Ce sujet n\'a pas été approuvé',
     'TOPICS_ROW_DELETED'           => 'Le sujet a été supprimé',
     'MODERATOR_PANEL_GENERAL'      => 'Tableau de bord',
-    'ADMIN_PANEL_GENERAL'          => 'Panneau d\'administration',
+    'ADMIN_PANEL_GENERAL'          => 'Administration',
     'RANK_IMAGE'                   => 'Rank image',
 
     'WELCOME_INDEX'                => 'Bienvenue',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
     'CAPTION_FAQ'                  => 'Common knowledge place',
     'CAPTION_SEARCH'               => 'Rechercher',
     'CAPTION_MEMBERS'              => 'Vous cherchz quelqu\'un ?',
-    'MEMBERS_CAP'                  => 'Members',
+    'MEMBERS_CAP'                  => 'Membres',
     'CAPTION_UCP'                  => 'Définir vos préférences',
     'UCP_CAP'                      => 'Panneau de l\'utilisateur',
     'INDEX_CAPTION'                => 'Page d\'index du forum',
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
     'LOADING_FORM'               => 'Loading form...',
 
 
-    'MEMBERLIST_P_JOINED'          => 'S\'est inscrit',
+    'MEMBERLIST_P_JOINED'          => 's\'est inscrit',
     'MEMBERLIST_P_EXPL'            => 'Date d\'inscription de l\'utilisateur',
     'MEMBERLIST_P_DATE_EXPL'       => 'C\'est la dernière fois que je suis passé par là',
     'SPAMMER_PLACEHOLDER'          => 'Vous ne pouvez pas spammer notre forum en toute impunité !',

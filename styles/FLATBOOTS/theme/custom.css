@@ -71,8 +71,8 @@ body {
 }
 
 .alert-info {
-	background-color: #F1A12E;
-	border-color: #F1A12E;
+	background-color: #292A2A;
+	border-color: #292A2A;
 }
 
 .label-info,
@@ -295,5 +295,35 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	color: #b1b1b2;
 }
 
+.btn-primary:hover {
+	background: #ff5a48;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+	background: #ff5a48;
+}
+
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+	background: #ff5a48;
+}
+
+/* SEARCH MEMBERS PM */
+
+.well {
+    background-color: #191919;
+    border: 1px solid #28292B;
+}
+
+.form-control {
+	border: 1px solid #28292B;
+}
+
+.btn-default {
+	border-color: #28292B;
+}
+
+.btn-default:hover {
+	background: #e6e6e6;
+}
 
 /* ===[ CSS HOOK BOTTOM ]=== */
