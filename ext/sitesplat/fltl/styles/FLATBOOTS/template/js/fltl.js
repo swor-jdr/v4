@@ -6,8 +6,8 @@ head.ready(function () {
 			console.log(data);
 		});
 
-		if (!$('#script-fltl')) {
-			$('body').append('<script id="script-fltl"></script>')
+		if ($('#script-fltl') === 'undefined') {
+			$('body').append('<script id="script-fltl"></script>');
 		}
 
 		$('#script-fltl').load('app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()) + ' #script-fltl', function(data) {
