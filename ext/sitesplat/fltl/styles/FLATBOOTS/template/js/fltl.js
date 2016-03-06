@@ -7,7 +7,7 @@ head.ready(function () {
 			dataType:'html',
 			success:function(response){
 				$("#fltl").html($(response).find("#fltl"));
-				$("body").append($(response).find("#script-fltl"));
+				$("body").append($(response).find("script#script-fltl"));
 			}
 		});
 	});
