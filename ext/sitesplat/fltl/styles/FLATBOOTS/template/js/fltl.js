@@ -5,7 +5,8 @@ head.ready(function () {
 
 		var hack = new Date();
 	
-		$("#fltl").load('app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()) + ' #fltl > *', function() {
+		$("#fltl").load('app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()) + ' #fltl > *', function(res) {
+			$("#fltl").html(res);
 		}, function(err) {
 			console.error(err);
 		});
