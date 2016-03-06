@@ -5,7 +5,7 @@ head.ready(function () {
 
 		var hack = new Date();
 	
-		$.ajax({url: 'app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime())})
+		$.ajax({url: 'app.php/fltl/fltl.html?fltl_start=' + start + '&time=' + String(hack.getTime()), async: true})
 			.done(function(data) {
 				$("#fltl").html(data);
 			});

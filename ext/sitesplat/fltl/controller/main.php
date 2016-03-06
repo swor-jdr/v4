@@ -114,7 +114,7 @@ class main
 					</div>
 					</div>';
 				}
-				echo '<script>
+				echo '<script async>
 					var start = ' . (($start + $this->config['fltl_limit'] >= $total) ? 0 : $start + $this->config['fltl_limit']) . ';
 					$(\'.rtbutton\').text(\'' . (($start + $this->config['fltl_limit'] >= $total) ? $this->user->lang['BACK_TO_START'] : $this->user->lang['VIEW_MORE_TOPICS']) . '\');
 					</script>';
