@@ -314,16 +314,4 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     border: 1px solid #28292B;
 }
 
-.form-control {
-	border: 1px solid #28292B;
-}
-
-.btn-default {
-	border-color: #28292B;
-}
-
-.btn-default:hover {
-	background: #e6e6e6;
-}
-
 /* ===[ CSS HOOK BOTTOM ]=== */
