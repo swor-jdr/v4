@@ -240,3 +240,29 @@ p#start
 	0% { top: 100%; }
 	100% { top: -170%; }
 }
+
+#btnContinue {
+	top: 10%;
+	position: absolute;
+	z-index: 999;
+	display: block;
+	width: 300px;
+	margin-left: -170px;
+	left: 50%;
+	text-decoration: none;
+	border-radius: 28px;
+	font-family: Helvetica, Arial;
+	color: #ffffff;
+	font-size: 1.2em;
+	padding: 10px 20px 10px 20px;
+	border: solid #fff 2px;
+	text-decoration: none;
+	transition: all 0.3s, opacity 1s;
+	text-align: center;
+	opacity: 0;
+}
+#btnContinue:hover {
+	text-decoration: none;
+	color: #FFE417;
+	border: solid #FFE417 2px;
+}

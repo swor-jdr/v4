@@ -24,6 +24,21 @@
 		</div>
 	</div>
 
+	<script type="text/javascript">
+
+		function showButton()
+		{
+			document.getElementById("btnContinue").style.opacity = "1";
+		}
+
+		window.onload = function()
+		{
+			setTimeout('showButton()', 20000);
+		}
+
+	</script>
+	<a id="btnContinue" href="http://www.swor-jdr.com/">Passer l'intro...</a>
+
 	<audio autoplay>
 		<source src="sounds/intro.mp3"></source>
 		<source src="sounds/intro.ogg"></source>
