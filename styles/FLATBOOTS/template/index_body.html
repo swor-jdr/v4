@@ -35,12 +35,44 @@
  <!-- IF S_DISPLAY_ONLINE_LIST -->
 	<div class="panel-footer sorting collapse">
 	 <div class="row">
-	   <div class="col-md-6">
+	   <div class="col-md-12">
 	    <!-- EVENT index_body_block_stats_prepend -->
 		<span class="stats-heading">{TOTAL_USERS_ONLINE}&nbsp;&#40;{L_ONLINE_EXPLAIN}&#41;&nbsp;<!-- IF U_VIEWONLINE --><a href="{U_VIEWONLINE}" title="{L_WHO_IS_ONLINE}"><i class="fa fa-question-circle"></i></a><!-- ENDIF --></span>
 		<!-- IF LEGEND -->
-		  <div class="space10"></div>
-		 <small>{L_LEGEND}{L_COLON}&nbsp;{LEGEND}</small>
+<!-- 		  <div class="space10"></div>
+		 <strong>{L_LEGEND}{L_COLON}&nbsp;{LEGEND}</strong> -->
+			 <div class="row">
+				 <div class="panel-body">
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=9" style="color:#D8A90E;">Maîtres du Jeu</a></strong>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=8" style="color:#AB1824;">Nouvelle République</a></strong>
+					</div>
+					<div class="visible-xs space10"></div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=10" style="color:#2C6CCB;">Vestiges de l'Empire</a></strong>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=12" style="color:#37B495;">Nouvel Ordre Jedi</a></strong>
+					</div>
+					<div class="visible-sm visible-md visible-lg space10"></div>
+					<div class="visible-xs space10"></div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=11" style="color:#83343D;">Ordre Sith</a></strong>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=17" style="color:#544496;">Crime Galactique</a></strong>
+					</div>
+					<div class="visible-xs space10"></div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=31" style="color:#387B31;">Guilde du Maelstrom</a></strong>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 text-center">
+						<strong><a href="http://www.swor-jdr.com/memberlist.php?mode=group&g=13" style="color:#B7BBBD">Divers & Neutres</a></strong>
+					</div>
+				</div>
+		</div>
 		<!-- ENDIF -->
 		
 		<!-- EVENT index_body_block_online_prepend -->
@@ -63,4 +95,3 @@
 <!-- ENDIF -->
 <!-- EVENT index_body_stat_blocks_after -->
 <!-- INCLUDE overall_footer.html -->
-
