@@ -1425,79 +1425,50 @@ phpbb.registerDropdown = function(toggle, dropdown, options) {
 * @param {int} height Palette cell height.
 */
 phpbb.colorPalette = function(dir, width, height) {
+	var r, g, b,
+		numberList = new Array(6),
+		color = '',
+		html = '';
+
+	numberList[0] = '00';
+	numberList[1] = '40';
+	numberList[2] = '80';
+	numberList[3] = 'BF';
+	numberList[4] = 'FF';
 
 	var tableClass = (dir === 'h') ? 'horizontal-palette' : 'vertical-palette';
 	html += '<table class="not-responsive colour-palette ' + tableClass + '" style="width: auto;">';
 
-	var html = '',
-	colors = [
-		'000000',
-		'990000',
-		'009900',
-		'000099',
-		'FFFFFF'
-	]
+	for (r = 0; r < 5; r++) {
+		if (dir === 'h') {
+			html += '<tr>';
+		}
 
-	var tableClass = (dir === 'h') ? 'horizontal-palette' : 'vertical-palette';
-	html += '<table class="not-responsive colour-palette ' + tableClass + '" style="width: auto;">';
+		for (g = 0; g < 5; g++) {
+			if (dir === 'v') {
+				html += '<tr>';
+			}
 
-	for (i = 0; i < colors.length; i++) {
-		color = '' + colors[i] + colors[i] + colors[i];
-		html += '<tr><td style="background-color: #' + color + '; width: ' + width + 'px; height: ' +
-			height + 'px;"><a href="#" data-color="' + color + '" style="display: block; width: ' +
-			width + 'px; height: ' + height + 'px; " alt="#' + color + '" title="#' + color + '"></a>';
-		html += '</td></tr>';
+			for (b = 0; b < 5; b++) {
+				color = '' + numberList[r] + numberList[g] + numberList[b];
+				html += '<td style="background-color: #' + color + '; width: ' + width + 'px; height: ' +
+					height + 'px;"><a href="#" data-color="' + color + '" style="display: block; width: ' +
+					width + 'px; height: ' + height + 'px; " alt="#' + color + '" title="#' + color + '"></a>';
+				html += '</td>';
+			}
+
+			if (dir === 'v') {
+				html += '</tr>';
+			}
+		}
+
+		if (dir === 'h') {
+			html += '</tr>';
+		}
 	}
-
 	html += '</table>';
 	return html;
 };
-
-// phpbb.colorPalette = function(dir, width, height) {
-// 	var r, g, b,
-// 		numberList = new Array(6),
-// 		color = '',
-// 		html = '';
-
-// 	numberList[0] = '00';
-// 	numberList[1] = '40';
-// 	numberList[2] = '80';
-// 	numberList[3] = 'BF';
-// 	numberList[4] = 'FF';
-
-// 	var tableClass = (dir === 'h') ? 'horizontal-palette' : 'vertical-palette';
-// 	html += '<table class="not-responsive colour-palette ' + tableClass + '" style="width: auto;">';
-
-// 	for (r = 0; r < 5; r++) {
-// 		if (dir === 'h') {
-// 			html += '<tr>';
-// 		}
-
-// 		for (g = 0; g < 5; g++) {
-// 			if (dir === 'v') {
-// 				html += '<tr>';
-// 			}
-
-// 			for (b = 0; b < 5; b++) {
-// 				color = '' + numberList[r] + numberList[g] + numberList[b];
-// 				html += '<td style="background-color: #' + color + '; width: ' + width + 'px; height: ' +
-// 					height + 'px;"><a href="#" data-color="' + color + '" style="display: block; width: ' +
-// 					width + 'px; height: ' + height + 'px; " alt="#' + color + '" title="#' + color + '"></a>';
-// 				html += '</td>';
-// 			}
-
-// 			if (dir === 'v') {
-// 				html += '</tr>';
-// 			}
-// 		}
-
-// 		if (dir === 'h') {
-// 			html += '</tr>';
-// 		}
-// 	}
-// 	html += '</table>';
-// 	return html;
-// };
 
 /**
 * Register a color palette.
