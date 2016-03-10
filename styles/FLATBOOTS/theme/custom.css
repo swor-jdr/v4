@@ -333,15 +333,15 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 /* CUSTOM NEW MESSAGE TAG */
 
 .table-primary tbody tr:nth-child(2n+1) td[title="Messages non lus"] .forumtitle::after {
-    content: "Nouveau message";
+    content: "Nouveau";
     display: inline-block;
     margin-left: 1em;
     padding: 0.4em 0.8em;
-    background: orange;
-    color: white;
+    background: #292A2A;
+    color: #F1A12E;
     font-family: 'Asap','Arial','Helvetica',sans-serif;
     font-size: 11px;
-    line-height: 11px;
+    line-height: 12px;
     border-radius: 4px;
 
 /* ===[ CSS HOOK BOTTOM ]=== */
