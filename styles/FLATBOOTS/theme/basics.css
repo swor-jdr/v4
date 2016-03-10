@@ -922,7 +922,7 @@ fieldset {
 	color:#fff;
 	border:3px solid #191919;
 	border-radius:50%;
-	background:none repeat scroll 0 0 #6a8db3;
+	background:none repeat scroll 0 0 #121315;
 	box-shadow:0 0 0 6px #28292B
 }
 
@@ -1344,7 +1344,7 @@ table .stats-col {
 }
 
 .bg-primary,.list-group-item-primary {
-	background-color:#dff3f9
+	background-color:#121315
 }
 
 .alert-primary,.progress-bar,.panel-primary>.panel-heading {
@@ -1366,7 +1366,7 @@ table .stats-col {
 .list-group-item-info,a.list-group-item-info,.bg-info {
 	font-weight:700;
 	color:#5bc0de;
-	background-color:#dff3f9
+	background-color:#121315
 }
 
 .alert-info,.progress-bar-info,.label-info,.panel-info>.panel-heading {
@@ -1377,7 +1377,7 @@ table .stats-col {
 .list-group-item-warning,a.list-group-item-warning,.bg-warning {
 	font-weight:700;
 	color:#fdc153;
-	background-color:#1919194e1
+	background-color:#121315
 }
 
 .alert-warning,.progress-bar-warning,.panel-warning>.panel-heading {
