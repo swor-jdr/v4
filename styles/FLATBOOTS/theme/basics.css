@@ -920,10 +920,10 @@ fieldset {
 	height:25px;
 	text-align:center;
 	color:#fff;
-	border:3px solid #c4dada;
+	border:3px solid #191919;
 	border-radius:50%;
 	background:none repeat scroll 0 0 #6a8db3;
-	box-shadow:0 0 0 6px #fafafb
+	box-shadow:0 0 0 6px #28292B
 }
 
 .square-icon.sm {
@@ -4558,7 +4558,7 @@ article h3 {
 }
 
 .mini-profile-contact li a.default-contact {
-	background-color:#ccc
+	background-color:#28292B
 }
 
 .mini-profile-contact li a.facebook {
