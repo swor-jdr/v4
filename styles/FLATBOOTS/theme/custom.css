@@ -332,7 +332,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 /* CUSTOM NEW MESSAGE TAG */
 
-.table-primary tbody tr:nth-child(2n+1) td[title="Messages non lus"] .forumtitle::after {
+.table-primary tbody tr:nth-child(n+1) td[title="Messages non lus"] .forumtitle::after {
     content: "Nouveau";
     display: inline-block;
     margin-left: 1em;
