@@ -288,10 +288,10 @@ $lang = array_merge($lang, array(
     'CHANGE_PASSWORD'                => 'Modifier le mot de passe',
 
     'ADMIN_TIPS'                     => 'Accès au PCA',
-    'ADMIN_TIP_INTRO'                => 'Vous êtes sur le point d\'accéder au panneau d\'administration, cet espace est réservé aux administrateurs.'
+    'ADMIN_TIP_INTRO'                => 'Vous êtes sur le point d\'accéder au panneau d\'administration, cet espace est réservé aux administrateurs.',
     'ADMIN_TIP_ONE'              => 'Tenir la version à jour (phpBB3.1.8)',
     'ADMIN_TIP_TWO'              => 'Utilisez des mots de passes complexes avec chiffres, lettres et majuscules pour vos comptes administrateurs.',
-    'ADMIN_TIP_THREE'                => 'Réstreignez l\'accès à cet espace de travail.',
+    'ADMIN_TIP_THREE'                => 'Réstreignez l\'accès à cet espace de travail...',
     'ADMIN_CHECK_IT_BTN'             => 'Consulter les Fondateurs pour plus de détails',
 
     'USER_MINI_PROFILE'          => 'Mini profil du joueur',
