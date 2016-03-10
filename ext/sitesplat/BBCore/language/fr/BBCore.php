@@ -287,12 +287,12 @@ $lang = array_merge($lang, array(
     'CHANGE_AVATAR'              => 'Modifier l\'avatar',
     'CHANGE_PASSWORD'                => 'Modifier le mot de passe',
 
-    'ADMIN_TIPS'                     => 'Admin Tips &amp; Tricks',
-    'ADMIN_TIP_INTRO'                => 'Did you know you can make your phpBB forum even more secure with some simple steps?',
-    'ADMIN_TIP_ONE'              => 'Keep your software up to-date.',
-    'ADMIN_TIP_TWO'              => 'Always use strong passwords that contain random sequence of letters, numbers and special characters.',
-    'ADMIN_TIP_THREE'                => 'Restrict the admin folder access...',
-    'ADMIN_CHECK_IT_BTN'             => 'Visit SiteSplat.com for more',
+    'ADMIN_TIPS'                     => 'Accès au PCA',
+    'ADMIN_TIP_INTRO'                => 'Vous êtes sur le point d\'accéder au panneau d\'administration, cet espace est réservé aux administrateurs.'
+    'ADMIN_TIP_ONE'              => 'Tenir la version à jour (phpBB3.1.8)',
+    'ADMIN_TIP_TWO'              => 'Utilisez des mots de passes complexes avec chiffres, lettres et majuscules pour vos comptes administrateurs.',
+    'ADMIN_TIP_THREE'                => 'Réstreignez l\'accès à cet espace de travail.',
+    'ADMIN_CHECK_IT_BTN'             => 'Consulter les Fondateurs pour plus de détails',
 
     'USER_MINI_PROFILE'          => 'Mini profil du joueur',
     'USER_MINI_PROFILE_VIEW_FULL'    => 'Voir le profil complet',
