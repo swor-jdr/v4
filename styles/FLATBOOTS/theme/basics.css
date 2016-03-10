@@ -170,7 +170,8 @@ blockquote .codebox {
 	max-height:200px;
 	margin:2px 0;
 	white-space:normal;
-	color:#8b8b8b
+	color: #238edf;
+	background: #121314;
 }
 
 .syntaxbg {
