@@ -320,4 +320,16 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	background-color:#191919;
 }
 
+.modal-header {
+	background: #161616;
+	border-bottom: 1px solid #161415
+}
+
+.modal-footer {
+	background:#161616;
+	border-top: 1px solid #e5e5e
+}
+
+
+
 /* ===[ CSS HOOK BOTTOM ]=== */
