@@ -189,14 +189,14 @@ $lang = array_merge($lang, array(
 	'MCP_PM_REPORT_DETAILS'			=> 'Détails du rapport de MP',
 	'MCP_PM_REPORTS_CLOSED'			=> 'Rapports de MP clôturés',
 	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Voici une liste de tous les rapports de messages privés qui ont été résolus.',
-	'MCP_PM_REPORTS_OPEN'			=> 'Rapports de MP ouverts',
+	'MCP_PM_REPORTS_OPEN'			=> 'Liste des MP rapportés',
 	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Voici une liste de tous les rapports de messages privés qui sont encore à traiter.',
 
-	'MCP_REPORTS'					=> 'Messages modérés',
+	'MCP_REPORTS'					=> 'Demandes de MJ',
 	'MCP_REPORT_DETAILS'			=> 'Détails de la modération',
-	'MCP_REPORTS_CLOSED'			=> 'Modérations clôturées',
+	'MCP_REPORTS_CLOSED'			=> 'Modérations traitées',
 	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Liste de toutes les modérations terminées.',
-	'MCP_REPORTS_OPEN'				=> 'Modérations ouvertes',
+	'MCP_REPORTS_OPEN'				=> 'Demandes en attente',
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Liste de toutes les modérations encore à traiter.',
 
 	'MCP_QUEUE'								=> 'File d’attente de modération',
