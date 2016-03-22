@@ -427,9 +427,9 @@ $lang = array_merge($lang, array(
 		),
 		'DESCRIPTION' => array(
 			'WAREZ'		=> 'Ce message contient des liens de logiciels illégaux ou piratés.',
-			'SPAM'		=> 'Le message rapporté est un message publicitaire pour un site Internet ou autre.',
-			'OFF_TOPIC'	=> 'Le message rapporté est hors sujet.',
-			'OTHER'		=> 'Le message rapporté ne s’adapte à aucune autre catégorie, utilisez le champ d’information complémentaire.',
+			'SPAM'		=> 'Le message est un message publicitaire pour un site Internet ou autre.',
+			'OFF_TOPIC'	=> 'Le message est hors sujet.',
+			'OTHER'		=> 'Le message ne s’adapte à aucune autre catégorie, utilisez le champ d’information complémentaire.',
 		),
 	),
 ));
