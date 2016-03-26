@@ -2480,7 +2480,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 }
 
 .post-signature img {
-	height: 100px;
+	max-height: 100px;
 }
 
 .signature-pm {
