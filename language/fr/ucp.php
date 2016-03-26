@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'INVALID_USER_BIRTHDAY'		=> 'La date anniversaire indiquée est incorrecte.',
 	'INVALID_CHARS_USERNAME'	=> 'Le nom d’utilisateur contient des caractères interdits.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Le mot de passe ne contient pas les caractères requis.',
-	'ITEMS_REQUIRED'			=> 'Les éléments marqués par un astérisque (*) sont des champs obligatoires du profil et doivent être remplis.',
+	'ITEMS_REQUIRED'			=> 'Les éléments suivants concernent les détails de votre personnage. Ils permettront aux autres joueurs de comprendre les traits globaux de votre personnage. Ces informations sont purement HRP et ne peuvent être utilisées sans raison valable.',
 
 	'JOIN_SELECTED'				=> 'Adhérer au groupe sélectionné',
 

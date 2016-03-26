@@ -27,7 +27,7 @@
 	<div class="form-group">
 		<label for="username" class="control-label">{L_USERNAME}{L_COLON}</label><span class="help-block">{L_USERNAME_EXPLAIN}</span>
 		<div class="form-icon">
-			<input class="form-control input-lg" type="text" name="username" id="username" size="25" value="{USERNAME}" title="{L_USERNAME}" placeholder="E.g,John Doe"/>
+			<input class="form-control input-lg" type="text" name="username" id="username" size="25" value="{USERNAME}" title="{L_USERNAME}" placeholder="Entrez le nom de votre personnage"/>
 		    <span class="fa fa-user login-form-icon"></span>
 		 </div> 
 		<div class="control-group"></div>
@@ -38,7 +38,7 @@
 	<div class="form-group">
 		<label class="control-label" for="email">{L_EMAIL_ADDRESS}{L_COLON}</label><span class="help-block">{L_UCP_REGISTER_EMAIL_EXPLAIN}</span>
           <div class="form-icon">
-		    <input class="form-control input-lg" type="text" name="email" id="email" size="25" maxlength="100" value="{EMAIL}" placeholder="E.g.,john@mail.com" autocomplete="off"/>
+		    <input class="form-control input-lg" type="text" name="email" id="email" size="25" maxlength="100" value="{EMAIL}" placeholder="Entrez votre adresse mail" autocomplete="off"/>
 		    <span class="icon-moon-email login-form-icon"></span>
 		  </div>
 		  <div class="control-group"></div>
@@ -49,7 +49,7 @@
 	<div class="form-group">
 		<label class="control-label" for="new_password">{L_PASSWORD}{L_COLON}</label><span class="help-block">{L_PASSWORD_EXPLAIN}</span>
           <div class="form-icon">
-		    <input class="form-control input-lg" type="password" name="new_password" id="new_password" size="25" value="{PASSWORD}" placeholder="Ex:ASDFasdf123" autocomplete="off"/>
+		    <input class="form-control input-lg" type="password" name="new_password" id="new_password" size="25" value="{PASSWORD}" placeholder="Entrez votre mot de passe" autocomplete="off"/>
 		  <span class="fa fa-key login-form-icon"></span>
 		  </div>
 		  <div class="control-group"></div>
@@ -60,7 +60,7 @@
 	<div class="form-group">
 		<label class="control-label" for="password_confirm">{L_CONFIRM_PASSWORD}{L_COLON}</label><span class="help-block">{L_PASSWORD_EXPLAIN_CONFIRM}</span>
           <div class="form-icon">
-		    <input class="form-control input-lg" type="password" name="password_confirm" id="password_confirm" size="25" value="{PASSWORD_CONFIRM}" placeholder="Ex:ASDFasdf123" autocomplete="off"/>
+		    <input class="form-control input-lg" type="password" name="password_confirm" id="password_confirm" size="25" value="{PASSWORD_CONFIRM}" placeholder="Entrez à nouveau votre mot de passe" autocomplete="off"/>
 		   <span class="fa fa-key login-form-icon"></span>
 		  </div>
 		  <div class="control-group"></div>
@@ -69,42 +69,6 @@
    <!-- EVENT ucp_register_credentials_after -->
 </div>
 
-
-<div class="row">
-	<div class="col-md-6">
-	<div class="form-group"> 
-	<div class="control-group">
-	   <label class="control-label" for="lang">{L_LANGUAGE}{L_COLON}</label>
-       <div>
-	    <select class="selectpicker" data-container="body" name="lang" id="lang" onchange="change_language(this.value); return false;" tabindex="6" title="{L_LANGUAGE}">{S_LANG_OPTIONS}</select>
-	</div> 
-	</div>
-	</div>
-  </div>
-
-   <div class="col-md-6">
-    <!-- /* from timezone_option.html */ -->	
-	<div class="control-group"> 
-		<label class="control-label" for="timezone">{L_BOARD_TIMEZONE}{L_COLON}</label>
-		<div class="controls controls-row"> 
-		<select class="tz_select selectpicker" data-container="body" data-width="auto" name="tz" id="timezone">
-			<option value="">{L_SELECT_TIMEZONE}</option>
-		<!-- BEGIN timezone_select -->
-			<optgroup label="{timezone_select.LABEL}" data-tz-value="{timezone_select.VALUE}">
-				<!-- BEGIN timezone_options -->
-				<option title="{timezone_select.timezone_options.TITLE}" value="{timezone_select.timezone_options.VALUE}"<!-- IF timezone_select.timezone_options.SELECTED --> selected="selected"<!-- ENDIF -->>{timezone_select.timezone_options.LABEL}</option>
-				<!-- END timezone_options -->
-			</optgroup>
-		<!-- END timezone_select -->
-		</select>
-		</div>
-	</div>
-	<!-- /* from timezone_option.html */ -->
-   </div>
-  
-</div>
-	
-	
 <!-- EVENT ucp_register_profile_fields_before -->
 	<!-- IF .profile_fields -->
 		<strong>{L_ITEMS_REQUIRED}</strong>
