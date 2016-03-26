@@ -13,7 +13,7 @@ body {
     color: #e7e7e7;
     margin: 0;
     font-family: 'Roboto','Arial','Helvetica',sans-serif;
-    background-color: #ECF0F1;
+    background-color: #171818;
     background: url("./images/body_bg.jpg") repeat fixed 0 0 #423A36;
 }
 
@@ -792,5 +792,10 @@ div.chat-avatars:hover span {
             content: '\f075';   // fa-comment
       }
 
+/* CUSTOM BACKGROUND */
+
+body[href="http://www.swor-jdr.com/viewforum.php?f=25"] {
+    background: url("./images/body_bg.jpg") no-repeat fixed;
+}
 
 /* ===[ CSS HOOK BOTTOM ]=== */
