@@ -93,7 +93,7 @@
 								<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
 									<dl>
 										<dt>
-											<div class="chat-names">
+											<span class="chat-names">
 											<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
 												<!-- IF chatrow.USER_COLOR -->
 													<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
@@ -104,10 +104,10 @@
 												&#64;
 											<!-- ENDIF -->
 											{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
-											</div>
-											<div class="message">
-											{chatrow.MESSAGE}
-											</div>
+											</span>
+											<span class="message">
+												{chatrow.MESSAGE}
+											</span>
 										</dt>
 										<dd>
 										</dd>
