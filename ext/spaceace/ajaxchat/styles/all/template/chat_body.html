@@ -3,7 +3,6 @@
 		<!-- IF S_GET_CHAT -->
 			<!-- IF S_READ or S_ADD -->
 				<!-- BEGIN chatrow -->
-					<div class="subway">
 						<div id="p{chatrow.MESSAGE_ID}" class="post bg{chatrow.CLASS}">
 							<div class="chat-postbody">
 								<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
@@ -32,7 +31,6 @@
 								{SMILIES_PATH}
 							</div>
 						</div>
-					</div>
 				<!-- END chatrow -->
 				--!--{LAST_ID}--!--
 				<!-- IF S_AJAX_CHAT_SOUND -->
@@ -97,16 +95,19 @@
 										<dl>
 											<dt>
 												<div class="chat-names">
-													<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
-														<!-- IF chatrow.USER_COLOR -->
-															<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b][/color]', true);return false;" title="{L_RESPOND}">&#64;</a>
-														<!-- ELSE -->
-															<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
-														<!-- ENDIF -->
+												<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
+													<!-- IF chatrow.USER_COLOR -->
+														<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 													<!-- ELSE -->
-													&#64;
+														<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 													<!-- ENDIF -->
-													{chatrow.USERNAME_FULL}<br /><b class="chat-time">&laquo;&nbsp;{chatrow.TIME}&nbsp;&raquo;</b>
+												<!-- ELSE -->
+													&#64;
+												<!-- ENDIF -->
+												{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
+												</div>
+												<div class="message">
+												{chatrow.MESSAGE}
 												</div>
 											</dt>
 											<dd>
@@ -119,9 +120,6 @@
 												<a href="javascript:void({chatrow.MESSAGE_ID})" title="{L_DELETE_CHAT_MESSAGE}" onClick="delete_post('{chatrow.MESSAGE_ID}')"><li class="button icon-button delete-icon"></li></a>
 											<!-- ENDIF -->
 										</ul>
-									</div>
-									<div class="message">
-										{chatrow.MESSAGE}
 									</div>
 								</div>
 							</div>
