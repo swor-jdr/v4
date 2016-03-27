@@ -3,34 +3,34 @@
 		<!-- IF S_GET_CHAT -->
 			<!-- IF S_READ or S_ADD -->
 				<!-- BEGIN chatrow -->
-						<div id="p{chatrow.MESSAGE_ID}" class="post bg{chatrow.CLASS}">
-							<div class="chat-postbody">
-								<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
-									<dl>
-										<dt>
-											<div class="chat-names">
-												<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
-													<!-- IF chatrow.USER_COLOR -->
-														<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
-													<!-- ELSE -->
-														<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
-													<!-- ENDIF -->
+					<div id="p{chatrow.MESSAGE_ID}" class="post bg{chatrow.CLASS}">
+						<div class="chat-postbody">
+							<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
+								<dl>
+									<dt>
+										<span class="chat-names">
+											<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
+												<!-- IF chatrow.USER_COLOR -->
+													<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 												<!-- ELSE -->
-													&#64;
+													<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 												<!-- ENDIF -->
-												{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
-											</div>
-											<div class="message">
-												{chatrow.MESSAGE}
-											</div>
-										</dt>
-										<dd>
-										</dd>
-									</dl>
-								</div>
-								{SMILIES_PATH}
+											<!-- ELSE -->
+												&#64;
+											<!-- ENDIF -->
+											{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
+										</span>
+										<span class="message">
+											{chatrow.MESSAGE}
+										</span>
+									</dt>
+									<dd>
+									</dd>
+								</dl>
 							</div>
+							{SMILIES_PATH}
 						</div>
+					</div>
 				<!-- END chatrow -->
 				--!--{LAST_ID}--!--
 				<!-- IF S_AJAX_CHAT_SOUND -->
@@ -86,45 +86,36 @@
 					</div>
 				<!-- ENDIF -->
 			<div class="<!-- IF S_WHOIS_CHATTING --><!-- IF S_AJAX_CHAT_ONLINELIST and SCRIPT_NAME neq 'app/chat/archive' --> shouts<!-- ENDIF --><!-- ENDIF --><!-- IF not S_AJAX_CHAT_ONLINELIST or SCRIPT_NAME == 'app/chat/archive' or not S_WHOIS_CHATTING --> chat_online_off<!-- ENDIF --><!-- IF S_CHAT or S_POPUP or SCRIPT_NAME == 'app/chat/archive' --> main<!-- ENDIF -->">
-				<div class="subway">
-					<div id="chat">
-						<!-- BEGIN chatrow -->
-							<div id="p{chatrow.MESSAGE_ID}" class="post bg{chatrow.CLASS}">
-								<div class="chat-postbody">
-									<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
-										<dl>
-											<dt>
-												<div class="chat-names">
-												<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
-													<!-- IF chatrow.USER_COLOR -->
-														<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
-													<!-- ELSE -->
-														<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
-													<!-- ENDIF -->
+				<div id="chat">
+					<!-- BEGIN chatrow -->
+						<div id="p{chatrow.MESSAGE_ID}" class="post bg{chatrow.CLASS}">
+							<div class="chat-postbody">
+								<div class="chat-postprofile" id="profile{chatrow.MESSAGE_ID}">
+									<dl>
+										<dt>
+											<div class="chat-names">
+											<!-- IF not S_IS_BOT and S_USER_LOGGED_IN and SCRIPT_NAME neq 'app/chat/archive' -->
+												<!-- IF chatrow.USER_COLOR -->
+													<a href="#" style="color: #{chatrow.USER_COLOR}" onclick="insert_text('[color=#{chatrow.USER_COLOR}][b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/color][/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 												<!-- ELSE -->
-													&#64;
+													<a href="#" onclick="insert_text('[b]&#64;{chatrow.USERNAME_A}&nbsp;:&nbsp;[/b]', true);return false;" title="{L_RESPOND}">&#64;</a>
 												<!-- ENDIF -->
-												{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
-												</div>
-												<div class="message">
-												{chatrow.MESSAGE}
-												</div>
-											</dt>
-											<dd>
-											</dd>
-										</dl>
-									</div>
-									<div class="subway">
-										<ul class="post-buttons">
-											<!-- IF M_AJAXCHAT_DELETE or U_ACP -->
-												<a href="javascript:void({chatrow.MESSAGE_ID})" title="{L_DELETE_CHAT_MESSAGE}" onClick="delete_post('{chatrow.MESSAGE_ID}')"><li class="button icon-button delete-icon"></li></a>
+											<!-- ELSE -->
+												&#64;
 											<!-- ENDIF -->
-										</ul>
-									</div>
+											{chatrow.USERNAME_FULL} <span class="chat-time small">{chatrow.TIME}</span> <span> : </span>
+											</div>
+											<div class="message">
+											{chatrow.MESSAGE}
+											</div>
+										</dt>
+										<dd>
+										</dd>
+									</dl>
 								</div>
 							</div>
-						<!-- END chatrow -->
-					</div>
+						</div>
+					<!-- END chatrow -->
 				</div>
 			</div>
 			<div class="forabg">
