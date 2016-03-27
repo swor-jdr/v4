@@ -18,6 +18,9 @@
 
 #chat {
 	width: 100%;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 #chat-header {
