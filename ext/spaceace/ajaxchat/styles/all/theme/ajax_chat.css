@@ -223,12 +223,13 @@
 }
 
 .chat-avatars {
-	float: left;
+/*	float: left;
 	position: relative;
 	margin-right: 10px;
 	outline: none;
 	z-index: 0;
-	padding: 3px 0px 0px 3px;
+	padding: 3px 0px 0px 3px;*/
+	display:none;
 }
 
 .chat-names {

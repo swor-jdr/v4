@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'INVALID_USER_BIRTHDAY'		=> 'La date anniversaire indiquée est incorrecte.',
 	'INVALID_CHARS_USERNAME'	=> 'Le nom d’utilisateur contient des caractères interdits.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Le mot de passe ne contient pas les caractères requis.',
-	'ITEMS_REQUIRED'			=> 'Les éléments suivants concernent les détails de votre personnage. Ils permettront aux autres joueurs de comprendre les traits globaux de votre personnage. Ces informations sont purement HRP et ne peuvent être utilisées sans raison valable.',
+	'ITEMS_REQUIRED'			=> 'Les éléments suivants concernent les détails de votre personnage. Ils serviront aux Maîtres du Jeu qui valideront votre inscription, afin d\'avoir une idée du personnage que vous allez incarner dans le jeu.',
 
 	'JOIN_SELECTED'				=> 'Adhérer au groupe sélectionné',
 
@@ -438,7 +438,7 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'				=> 'Répondre au message',
 	'PRINT_PM'					=> 'Imprimer',
 	'PREFERENCES_UPDATED'		=> 'Vos préférences ont été mises à jour.',
-	'PROFILE_INFO_NOTICE'		=> 'Ces informations sont visibles par les autres membres. Soyez vigilant lors de la saisie d’informations personnelles. Les champs marqués par un astérisque (*) sont obligatoires.',
+	'PROFILE_INFO_NOTICE'		=> 'Ces informations concernent votre personnage et servent d\'informations pour les autres joueurs ainsi que les MJ. Ces données ne peuvent être utilisées dans le RP sans justification précise.',
 	'PROFILE_UPDATED'			=> 'Votre profil a été mis à jour.',
 	'PROFILE_AUTOLOGIN_KEYS'	=> 'L’identifiant de session « Se souvenir de moi » vous connecte automatiquement quand vous accédez au forum. Si vous vous déconnectez, l’identifiant de session est supprimé seulement sur l’ordinateur à partir duquel vous vous êtes déconnecté. Ici, vous pouvez voir la liste des identifiants de session créés depuis les autres ordinateurs qui ont été utilisés pour accéder à ce forum.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Aucun identifiant de session « Se souvenir de moi » n’a été sauvegardé.',

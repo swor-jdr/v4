@@ -108,37 +108,24 @@
 			<!-- INCLUDEJS @spaceace_ajaxchat/js/ajax_chat.js -->
 			<div class="forabg">
 				<div class="inner">
-					<ul class="topiclist">
-						<li class="header">
-							<dl class="icon">
-								<dt><div class="list-inner"><!-- IF SCRIPT_NAME == 'index' --><a href="{U_CHAT}">{L_CHAT_EXPLAIN}</a><!-- ELSE -->{L_CHAT_EXPLAIN}<!-- ENDIF --></div></dt>
-								<dd>
-								</dd>
-							</dl>
-						</li>
-					</ul>
 					<!-- IF SCRIPT_NAME neq 'app/chat/archive' -->
 						<ul class="chat topiclist forums">
-							<li class="row">
+							<div class="row">
 								<dl class="icon">
 									<dt class="chatform">
 										<!-- IF not S_IS_BOT -->
 											<!-- IF S_AJAXCHAT_POST -->
 												<form name="postform" id="chat-text" method="post" action="javascript:void(0);" onsubmit="handle_send('add', this)">
 													<fieldset>
-														<!-- INCLUDE chat_font_colour_hold.html -->
-														<input type="text" tabindex="1" name="message" id="message" class="inputbox chatinput"<!-- IF not S_AJAX_CHAT_AUTOCOMPLETE --> autocomplete="off"<!-- ENDIF --> />
-														<br />
-														<input type="submit" class="button" value="{L_SUBMIT}" title="{L_CHAT_SUBMIT_MESSAGE}" name="submit" tabindex="6" accesskey="s" />
-														<!-- IF S_AJAXCHAT_BBCODE -->
-															<input type="button" class="button" id="bbcodes" value="{L_BBCODES}" />
-															<input type="button" class="button" name="smilies" id="smilies" value="{L_SMILIES}" />
-														<!-- ENDIF -->
-														<input type="button" class="button" onclick="popup('{FILENAME}/archive', 1000, 625); return false;" value="{L_CHAT_ARCHIVE}" title="{L_CHAT_ARCHIVE_EXPLAIN}" />
-														<input type="button" class="button" onclick="popup('{FILENAME}/popup', 1000, 630); return false;" value="{L_CHAT_POPUP}" title="{L_CHAT_POPUP_EXPLAIN}" />
-														<!-- IF S_AJAXCHAT_BBCODE -->
-															<input type="button" class="button" name="chat_bbpalette" id="chat_bbpalette" value="{L_CHAT_FONT_COLOR}" />
-														<!-- ENDIF -->
+														<div class="form-group">
+															<div class="col-xs-9">
+																<input type="text" tabindex="1" name="message" id="message" class="form-control chatinput" autocomplete="off">
+															</div>
+															<div class="col-xs-3">
+																<input type="submit" class="btn btn-default" value="{L_SUBMIT}" title="{L_CHAT_SUBMIT_MESSAGE}" name="submit" tabindex="6" accesskey="s" />
+																<input type="button" class="btn btn-default hidden-xs" onclick="popup('{FILENAME}/archive', 1000, 625); return false;" value="{L_CHAT_ARCHIVE}" title="{L_CHAT_ARCHIVE_EXPLAIN}" />
+															</div>
+														</div>
 													</fieldset>
 												<!-- INCLUDE chat_buttons.html -->
 												</form>
@@ -152,7 +139,7 @@
 									<dd>
 									</dd>
 								</dl>
-							</li>
+							</div>
 						</ul>
 					<!-- ENDIF -->
 				</div>
