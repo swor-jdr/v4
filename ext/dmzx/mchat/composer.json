@@ -1,0 +1,45 @@
+{
+	"name": "dmzx/mchat",
+	"type": "phpbb-extension",
+	"description": "mChat Extension",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "2.0.0-RC3",
+	"time": "2016-03-24",
+	"keywords": ["phpbb", "extension", "mchat"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		},
+		{
+			"name": "kasimi",
+			"homepage": "https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1330603",
+			"role": "Extension Co-Developer"
+		},
+		{
+			"name": "RMcGirr83",
+			"homepage": "http://rmcgirr83.org",
+			"role": "Author"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "mChat Extension",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.7-PL1,<3.3.0@dev"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "mchat_version.json"
+		}
+	}
+}
