@@ -1916,7 +1916,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 .input-group-addon {
 	border:2px solid #28292B;
 	border-radius:3px;
-	background-color:#eee
+	background-color:#28292B
 }
 
 .input-group-sm>.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.btn {
@@ -2888,7 +2888,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 .navbar-avatar img {
 	width:100px;
 	height:100px;
-	border:3px solid #edeff0;
+	border:3px solid #2C2C2C;
 	border-radius:50%
 }
 
@@ -3105,7 +3105,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 .notification-block img {
 	width:50px;
 	height:50px;
-	border:3px solid #edeff0;
+	border:3px solid #2C2C2C;
 	margin-right:6px;
 	float:left;
 	border-radius:50%
@@ -3919,7 +3919,7 @@ li.pagination {
 	}
 
 	.mobile-online {
-		border-right:4px solid #18a628 !important;
+		border-right:4px solid #4DDE5D !important;
 		border-top-right-radius:6px;
 		border-bottom-right-radius:6px
 	}
@@ -4490,7 +4490,7 @@ li.pagination {
 }
 
 .avatar-over>.status::before {
-	background:#18a628;
+	background:#4DDE5D;
 	border:4px solid #2c2c2c;
 	border-radius:50%;
 	bottom:0;

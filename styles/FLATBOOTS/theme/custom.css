@@ -342,6 +342,10 @@ ul.list-unstyled.list-info.text-muted li {
     background: #28292B;
     padding: 5px;
     border-radius: 4px;
+}
 
+ul.list-unstyled.list-info.text-muted label {
+    margin-bottom: 0px;
+}
 
 /* ===[ CSS HOOK BOTTOM ]=== */
