@@ -170,7 +170,7 @@ $lang = array_merge($lang, array(
     'LOGIN_HIDE_ME'              => 'Cacher la session',
     'LOGIN_ME_IN'                    => 'Connexion',
     'SIGN_IN_ACCOUNT'                => 'Se connecter à mon compte',
-    'CREATE_ACCOUNT'                 => 'Créer un compte',
+    'CREATE_ACCOUNT'                 => 'Créer un personnage',
     'GO_TO_SEARCH_ADV'             => 'Retour à la recherche avancée',
 
     'CREATE_ACCOUNT_DISABLED'      => 'Inscriptions fermées',
