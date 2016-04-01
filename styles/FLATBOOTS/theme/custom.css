@@ -348,4 +348,18 @@ ul.list-unstyled.list-info.text-muted label {
     margin-bottom: 0px;
 }
 
+/* GROUPE DISPLAY ON BOTTOM */
+
+.group-item {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: .4em .8em;
+    vertical-align: middle;
+    border-color: #5c6166;
+    border-radius: 0.325em;
+    background-color: #5c6166;
+    font-family: 'Asap','Arial','Helvetica',sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+
 /* ===[ CSS HOOK BOTTOM ]=== */
