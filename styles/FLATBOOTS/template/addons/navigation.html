@@ -8,7 +8,7 @@
 				 <!-- IF CURRENT_USER_AVATAR -->{CURRENT_USER_AVATAR}&nbsp;<!-- ENDIF -->&nbsp;<span>{L_WELCOME_INDEX}&#44;&nbsp;{CURRENT_USERNAME_SIMPLE}<i class="caret"></i></span>
 				</a>
 				<ul class="dropdown-menu usermenu">
-				   <li><a title="" href="{U_UCP_PREFERENCE}"><i class="fa fa-user"></i>&nbsp;{L_UCP_PROFILE}</a></li>
+				   <!-- <li><a title="" href="{U_UCP_PREFERENCE}"><i class="fa fa-user"></i>&nbsp;{L_UCP_PROFILE}</a></li> -->
 				   <li><a title="" href="{U_PRIVATEMSGS}"><i class="fa fa-inbox"></i>&nbsp;{L_UCP_MESSAGES}&nbsp;&nbsp;<span class="badge badge-info"><!-- IF S_DISPLAY_PM and S_USER_UNREAD_PRIVMSG -->{S_USER_UNREAD_PRIVMSG}<!-- ELSE -->{S_USER_NEW_PRIVMSG}<!-- ENDIF --></span></a></li>
 				   <!-- IF S_NOTIFICATIONS_DISPLAY -->
 					 <li><a title="" href="{U_VIEW_ALL_NOTIFICATIONS}"><i class="fa fa-bell"></i>&nbsp;{L_NOTIFICATIONS}&nbsp;&nbsp;<!-- IF not .notifications --><!-- ELSE --><span class="badge badge-info">{NOTIFICATIONS_COUNT}</span><!-- ENDIF --></a></li>

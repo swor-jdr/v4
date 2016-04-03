@@ -362,4 +362,10 @@ ul.list-unstyled.list-info.text-muted label {
     font-size: 11px;
     line-height: 12px;
 
+/* POLL CUSTOMIZE */
+
+.progress {
+	background:rgba(0,0,0,.5);
+}
+
 /* ===[ CSS HOOK BOTTOM ]=== */
