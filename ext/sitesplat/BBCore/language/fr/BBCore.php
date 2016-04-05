@@ -23,12 +23,12 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, array(
 
     'PM_NEW_MSG' => array(
-        1 => 'You have %d New Private Message',
-        2 => 'You have %d New Private Messages',
+        1 => 'Vous avez %d Communication privée',
+        2 => 'Vous avez %d Communications privées',
     ),
     'PM_UNREAD_MSG' => array(
-        1 => 'You have %d Unread Private Message',
-        2 => 'You have %d Unread Private Messages',
+        1 => 'Vous avez %d Communication privée non lue',
+        2 => 'Vous avez %d Communications privées non lues',
     ),
     'PM_NEW_MSG_BUBBLE' => array(
         1 => '%d',
@@ -279,7 +279,7 @@ $lang = array_merge($lang, array(
     'SITESPLAT_TOTAL_TOPICS'         => 'Sujets',
     'SITESPLAT_TOTAL_USERS'      => 'Membres',
     'SITESPLAT_NEWEST_MEMBER'        => 'Nouvel arrivant',
-    'SITESPLAT_USERS_ONLINE'         => 'Qui est en ligne ?',
+    'SITESPLAT_USERS_ONLINE'         => 'Connectés',
     'SITESPLAT_MOST_USERS_ONLINE'    => 'Record de connexions',
 
     'BOOTSTRAP_VERSION'          => '3.3.5',
