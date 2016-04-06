@@ -1714,7 +1714,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 }
 
 .panel-poll {
-	border:2px solid #dbdbdb
+	border:2px solid #101010
 }
 
 .panel-poll label {
@@ -4475,7 +4475,7 @@ li.pagination {
 }
 
 .btn-bordered {
-	border:2px solid #ccc
+	border:2px solid #8C8C8C
 }
 
 .avatar-over {

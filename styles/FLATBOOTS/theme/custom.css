@@ -46,7 +46,7 @@ body {
 }
 
 .submenu {
-	border-bottom: 4px solid #F1A12E;
+	border-bottom: 4px solid #28292B;
 }
 
 .nav-icon:hover [class*="has-sub"] {
@@ -260,7 +260,7 @@ footer {
 }
 
 .panel {
-	background-color:#161616;
+	background-color:121314;
 }
 
 .form-control {
