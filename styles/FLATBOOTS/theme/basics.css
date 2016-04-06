@@ -937,7 +937,7 @@ fieldset {
 .framed-ucp {
 	margin-top:-5px;
 	padding:15px;
-	border:2px solid #ccc;
+	border:2px solid #101010;
 	border-radius:4px 4px 4px 4px;
 	background:none repeat scroll 0 0 transparent
 }
