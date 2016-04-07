@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
     'UCP_PM_SENTBOX'             => 'Envois',
     'UCP_PM_OPTIONS'             => 'Règles, dossiers &amp; paramètres',
     'UCP_NO_USER_CHANGE_ALLOWED'   => '**Le changement de pseudo n\'est pas autorisé**',
-    'UCP_REGISTER_EMAIL_EXPLAIN'   => 'Please do not use disposable emails',
+    'UCP_REGISTER_EMAIL_EXPLAIN'   => 'Veuillez utiliser une adresse valide',
 
     'WIDTH_SIZE'                     => 'width',
     'PIXEL_SIZE'                 => 'px',
@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
     'LINKS'                      => 'Liens',
     'TOPIC_PERMISSIONS'          => 'Permissions du topic',
     'MODERATOR_OPTIONS'          => 'Modérer',
-    'PASSWORD_EXPLAIN_CONFIRM'   => 'Confirmation du mot de passe',
+    'PASSWORD_EXPLAIN_CONFIRM'   => 'Renseigner le même mot de passe',
     'FORUM_REDIRECTS'                => 'Redirects:',
 
     'FANCY_TOPICS_TITLE'             => 'Derniers messages du forum',

@@ -406,7 +406,7 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_TOPICS'			=> 'Vous ne surveillez aucun sujet.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Le mot de passe doit avoir une longueur comprise entre %1$s et %2$s et doit contenir des lettres de casse mélangée (majuscules et minuscules) et des chiffres.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Le mot de passe doit avoir une longueur comprise entre %1$s et %2$s.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Entre %1$s et %2$s.',
 	'PASS_TYPE_CASE_EXPLAIN'	=> 'Le mot de passe doit avoir une longueur comprise entre %1$s et %2$s et doit contenir des lettres de casse mélangée (majuscules et minuscules).',
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Le mot de passe doit avoir une longueur comprise entre %1$s et %2$s et doit contenir des lettres de casse mélangée (majuscules et minuscules), des chiffres et des symboles.',
 	'PASSWORD'					=> 'Mot de passe',
