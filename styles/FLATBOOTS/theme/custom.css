@@ -369,4 +369,10 @@ ul.list-unstyled.list-info.text-muted label {
 	background:rgba(0,0,0,.5);
 }
 
+/* FORCE IMAGE TO BORDER RADIUS */
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	border-radius:4px;
+}
+
 /* ===[ CSS HOOK BOTTOM ]=== */
