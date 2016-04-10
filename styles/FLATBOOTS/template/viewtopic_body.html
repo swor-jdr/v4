@@ -194,7 +194,7 @@
 				<!-- IF postrow.S_ONLINE --><span class="status"></span><!-- ENDIF -->
 			</div>
          </div>
-		<div class="side-segment"><h3 style="border-bottom: 4px solid #e5e5e5;"><!-- IF postrow.POST_ICON_IMG --><img class="post-icon" src="{T_ICONS_PATH}{postrow.POST_ICON_IMG}" width="{postrow.POST_ICON_IMG_WIDTH}" height="{postrow.POST_ICON_IMG_HEIGHT}" alt=""/><!-- ENDIF --><a href="#p{postrow.POST_ID}">{postrow.POST_SUBJECT}</a><span class="pull-right post-id hidden-xs"><a href="{postrow.U_MINI_POST}" title="{L_POST}">&#35;{postrow.POST_ID}</a></span></h3></div>    
+		<div class="side-segment"><h3><!-- IF postrow.POST_ICON_IMG --><img class="post-icon" src="{T_ICONS_PATH}{postrow.POST_ICON_IMG}" width="{postrow.POST_ICON_IMG_WIDTH}" height="{postrow.POST_ICON_IMG_HEIGHT}" alt=""/><!-- ENDIF --><a href="#p{postrow.POST_ID}">{postrow.POST_SUBJECT}</a><span class="pull-right post-id hidden-xs"><a href="{postrow.U_MINI_POST}" title="{L_POST}">&#35;{postrow.POST_ID}</a></span></h3></div>    
 		<div class="clearfix">
 		<div class="text-muted<!-- IF (MINI_PROFILE_POSITION == 'alternate' and postrow.S_ROW_COUNT is odd ) --> alt-odd-time<!-- ENDIF --> <!-- IF MINI_PROFILE_POSITION == 'right' or (MINI_PROFILE_POSITION == 'alternate' and postrow.S_ROW_COUNT is even ) --> pull-right prof-right<!-- ELSE --> pull-left<!-- ENDIF -->">
 		<!-- EVENT viewtopic_body_post_author_before -->
