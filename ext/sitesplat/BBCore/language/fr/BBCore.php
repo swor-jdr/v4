@@ -23,8 +23,8 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, array(
 
     'PM_NEW_MSG' => array(
-        1 => 'Vous avez %d Communication privée',
-        2 => 'Vous avez %d Communications privées',
+        1 => 'Vous avez %d message entrant',
+        2 => 'Vous avez %d messages entrants',
     ),
     'PM_UNREAD_MSG' => array(
         1 => 'Vous avez %d Communication privée non lue',
