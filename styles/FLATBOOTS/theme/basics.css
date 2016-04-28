@@ -2335,7 +2335,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 	transition:all .1s linear 0s;
 	color:#2d2d2d!important;
 	border-bottom:none;
-	background-color:#191919
+	background-color:#e8e8e8
 }
 
 .social-network a:focus {
