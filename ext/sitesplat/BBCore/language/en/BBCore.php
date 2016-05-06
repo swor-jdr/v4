@@ -312,14 +312,14 @@ $lang = array_merge($lang, array(
   'PASSWORD_EXPLAIN_CONFIRM'	 => 'Make sure it matches',
   'FORUM_REDIRECTS'	             => 'Redirects:',
   
-  'FANCY_TOPICS_TITLE'	         => 'Recent topics from the forum',
-  'POST_BY'	                     => 'Post by',
-  'REPLY_BY'	                 => 'Reply by',
-  'NO_REPLIES'	                 => 'No replies',
-  'READ_MORE'	                 => 'Read more',
-  'RT_READ_MORE'	             => 'READ MORE',
-  'VIEW_MORE_TOPICS'	         => 'VIEW MORE TOPICS',
-  'BACK_TO_START'	             => 'BACK TO START',
+  'FANCY_TOPICS_TITLE'	         => 'Derniers topics du forum',
+  'POST_BY'	                     => 'Posté par',
+  'REPLY_BY'	                 => 'Réponse de',
+  'NO_REPLIES'	                 => 'Pas de réponses',
+  'READ_MORE'	                 => 'Lire plus',
+  'RT_READ_MORE'	             => 'LIRE PLUS',
+  'VIEW_MORE_TOPICS'	         => 'PLUS DE TOPICS',
+  'BACK_TO_START'	             => 'RETOUR',
   
   'TOGGLE_NAV'	                 => 'Toggle Navigation',
   
