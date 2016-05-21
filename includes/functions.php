@@ -4164,7 +4164,7 @@ function obtain_guest_count($item_id = 0, $item = 'forum')
 				SELECT DISTINCT s.session_ip
 				FROM ' . SESSIONS_TABLE . ' s
 				WHERE s.session_user_id = ' . ANONYMOUS . '
-					AND s.session_time >= ' . ($time - ((int) ($time % 60))) .
+					AND s.session_time >= ' . ($time - ((int) ($time % 1440))) .
 				$reading_sql .
 			')';
 	}
@@ -4173,7 +4173,7 @@ function obtain_guest_count($item_id = 0, $item = 'forum')
 		$sql = 'SELECT COUNT(DISTINCT s.session_ip) as num_guests
 			FROM ' . SESSIONS_TABLE . ' s
 			WHERE s.session_user_id = ' . ANONYMOUS . '
-				AND s.session_time >= ' . ($time - ((int) ($time % 60))) .
+				AND s.session_time >= ' . ($time - ((int) ($time % 1440))) .
 			$reading_sql;
 	}
 	$result = $db->sql_query($sql);
@@ -4214,7 +4214,7 @@ function obtain_users_online($item_id = 0, $item = 'forum')
 	}
 
 	// a little discrete magic to cache this for 30 seconds
-	$time = (time() - (intval($config['load_online_time']) * 60));
+	$time = (time() - (intval($config['load_online_time']) * 1440));
 
 	$sql = 'SELECT s.session_user_id, s.session_ip, s.session_viewonline
 		FROM ' . SESSIONS_TABLE . ' s
