@@ -1,31 +1,74 @@
+<style type="text/css">
+	table{background:#121314;width:100%;border-radius:4px;box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;padding:10px 10px 10px 10px}
+	td {padding:2px 10px 2px 10px}
+	th {padding:2px 10px 2px 10px}
+	#fiche-eco{background:#121314;width:100%;border-radius:4px;box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;padding:10px 10px 10px 10px}
+</style>
 <article>
 	<div class="panel">
-		<div class="panel-heading">
-			<div class="btn-group btn-group-justified" role="group" aria-label="Justified button group with nested dropdown">
-				<a href="http://www.swor-jdr.com/app.php/page/charte" class="btn btn-default" role="button">Charte du Forum</a>
-				<a href="http://www.swor-jdr.com/app.php/page/manuel" class="btn btn-default" role="button">Manuel de Jeu</a>
-				<div class="btn-group" role="group">
-					<a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">Système Economique <span class="caret"></span></a>
-					<ul class="dropdown-menu"> 
-						<li><a href="http://www.swor-jdr.com/app.php/page/force">Les Utilisateurs de la Force</a></li>
-						<li><a href="http://www.swor-jdr.com/app.php/page/trame">La Trame de Jeu</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
 		<div class="panel-body">
 			<h3>Système Economique</h3>
 			<h2>Fondamentaux</h2>
 			<dl class="dl-horizontal">
-				<dt>Economie</dt><dd>Le système économique est présent pour vous aider à approfondir le jeu de votre personnage. Vous pouvez ainsi représenter les revenus d'une planète que vous gérer, d'une entreprise que vous dirigez, ou d'une faction entière sous votre contrôle.</dd><br/>
-				<dt>Fiche Economique</dt><dd>La fiche économique est à peu près la même chose que la feuille de personnage. Elle permet de référencer les entrées et sorties d'argent, les revenus ou même les dettes de votre économie. Vous pouvez les poster dans le forum <a href="http://www.swor-jdr.com/viewforum.php?f=187">Inventaire</a>. Où vous y trouverez un sujet d'aide à la création d'une fiche économique.</dd><br/>
+				<dt>Economie</dt><dd>Le système économique est présent pour vous aider à approfondir le jeu de votre personnage d'un point de vue financier. Vous pouvez ainsi représenter les revenus d'une planète que vous gérer, d'une entreprise que vous dirigez, ou d'une faction entière sous votre contrôle. Cela permet également de gérer vos comptes et de percevoir des salaires.</dd><br/>
+				<dt>Fiche Economique</dt><dd>La fiche économique concerne les finances de votre personnage. Elle permet de référencer les entrées et sorties d'argent, les revenus ou même les dettes de votre économie. Vous pouvez les poster dans le forum de <a href="http://www.swor-jdr.com/viewforum.php?f=336">Votre Economie</a>. </dd><br/>
 				<dt>Discussions</dt><dd>Il est possible de discuter de votre projet économique avec les membres du Staff dans la partie réservée la <a href="http://www.swor-jdr.com/viewforum.php?f=280">gestion de l'économie</a>.</dd><br/>
-				<dt>Mise à jour</dt><dd>Toutes les fins de mois, vous pouvez mettre à jour votre fiche économique en y ajoutant les nouveaux fonds pour le mois prochain. Ainsi, vous pouvez planifier vos nouvelles actions en vous basant sur le nouveau budget de votre entité économique.</dd><br/>
-			</dl>
-		<div class="panel-footer">
-			<p class="text-center">
-				<a class="btn btn-default" href="http://www.swor-jdr.com/app.php/page/regles" role="button">Retour</a>
-			</p>
-		</div>
+				<dt>Mise à jour</dt><dd>Toutes les fins de mois, vous pouvez mettre à jour votre fiche économique en y ajoutant les nouveaux fonds pour le mois prochain. Ainsi, vous pouvez planifier vos nouvelles actions en vous basant sur le nouveau budget de votre entité économique. <em>Si vous oubliez une mise à jour, vous avez jusqu'à 6 mois pour l'effectuer. Passé ce délai, vous perdez la totalité des gains de la Fiche.</em></dd><br/>
+				<dt>Nombre Autorisé</dt><dd>Il vous est interdit d'avoir plus d'une fiche économique par entité. C'est à dire que vous ne devez avoir qu'un seul compte bancaire, une seule fiche de planète, une seule entreprise et une seule faction. Vous pouvez cependant cumuler les 4 types de fiche.</dd><br/>
+				<dt>Relation</dt><dd>A l'exception des <a href="http://www.swor-jdr.com/viewforum.php?f=187">comptes bancaires</a>, votre personnage ne possède pas directement les fonds des fiches économiques. Se sont les entités qu'il dirige qui les possède. Ainsi, il vous est impossible de vous servir de ces fonds à moins de le justifier à travers le RP.</dd><br/>
+				<h2>Détails de la Fiche Economique</h2>
+				<dl class="dl-horizontal">
+					<dt>Revenus</dt><dd>Les revenus sont les entrées d'argent de votre fiche.<br/><br/>
+					<table>
+						<tr><th>Intitulé</th><th>Exemples</th></tr>
+						<tr style="color:lightgreen"><td><strong>Compte</strong></td><td>Salaire, rente, dons de mécénat, prime, ...</td></tr>
+						<tr style="color:lightgreen"><td><strong>Entreprise</strong></td><td>Ventes, productions, investisseurs, minerais, ...</td></tr>
+						<tr style="color:lightgreen"><td><strong>Planète</strong></td><td>Impôts, commerce, douanes, taxes, exportations...</td></tr>
+						<tr style="color:lightgreen"><td><strong>Faction</strong></td><td>Revenus d'une zone, d'un bâtiment, d'un sous-traitant, ...</td></tr>
+						<tr style="color:lightgreen"><td><strong>Crime</strong></td><td>Contrebande, marché noir, esclavage, trafics, réseaux ...</td></tr>
+					</table>
+				</dd><br/>
+				<dt>Dépenses</dt><dd>Les dépenses sont les sorties d'argent de votre fiche.<br/><br/>
+				<table>
+					<tr><th>Intitulé</th><th>Exemples</th></tr>
+					<tr style="color:lightcoral"><td><strong>Compte</strong></td><td>Loyers, charges diverses, entretiens, dépenses courantes, ...</td></tr>
+					<tr style="color:lightcoral"><td><strong>Entreprise</strong></td><td>Entretiens des locaux, publicité, personnel, impôts, ...</td></tr>
+					<tr style="color:lightcoral"><td><strong>Planète</strong></td><td>Education, armée, justice, environnement, agriculture, ...</td></tr>
+					<tr style="color:lightcoral"><td><strong>Faction</strong></td><td>Entretiens des flottes et armées, des bâtiments, ...</td></tr>
+					<tr style="color:lightcoral"><td><strong>Crime</strong></td><td>Pots de vin, réseau criminel, licences, espionnage,  ...</td></tr>
+				</table>
+			</dd><br/>
+			<dt>Bénéfices</dt><dd>En additionnant vos revenus et en soustrayant vos dépenses, si le résultat obtenu est positif, il correspond aux crédits que la fiche reçoit toutes les fins de mois dans ses caisses.</dd><br/>
+			<dt>Dettes</dt><dd>Si, en revanche, le résultat est négatif, les caisses se vident. Si les caisses sont dans le négatif, vous contractez alors une dette. <strong>En cas de dette, il vous est interdit d'acheter quoique ce soit</strong>, vous devez impérativement redresser vos finances. Au bout de 6 mois d'endettement consécutifs, votre fiche économique est supprimée, c'est la banqueroute.</dd><br/>
+		</dl>
+		<h2>Créer une Fiche</h2>
+		<dl class="dl-horizontal">
+			<dt></dt><dd></dd><br/>
+			<dt>Univers connu</dt><dd>Si vous créez une fiche éco d'une entreprise ou d'une planète déjà existante dans l'univers de Star Wars, il est fort probable que le Staff vous attribue une fiche économique préfabriquée.</dd><br/>
+			<dt>Entité originale</dt><dd>Si, au contraire, vous souhaitez créer votre propre entreprise, il vous faudra commencer à travers le RP mais vous devrez commencer avec 20.000 crédits de bénéfices au maximum.</dd><br/>
+			<dt>Code de la fiche</dt><dd>Afin d'être le plus conforme à notre règlement, nous vous invitons à respecter la mise en page suivante pour vos fiches économiques. <br/><br/>
+			<div id="fiche-eco"><strong class="text-uppercase">Nom de l'entité</strong><br/><br/>
+				<ul style="color:lightgreen" class="list-unstyled"><strong>Revenus</strong> <kbd>couleur : lightgreen</kbd><br/>
+					<li>Salaires : +1.800 Cr</li>
+					<li>Rentes : +500 Cr</li>
+					<li>Dons : +2.500 Cr</li>
+				</ul>
+				<ul style="color:lightcoral" class="list-unstyled"><strong>Dépenses</strong> <kbd>couleur : lightcoral</kbd><br/>
+					<li>Loyer : -650 Cr</li>
+					<li>Impôts : -230 Cr</li>
+					<li>Entretiens : -200 Cr</li>
+				</ul>
+				_______________<br/>
+				<strong>Total : +3270</strong><br/><br/>
+				Dans les caisses :  <strong style="color:GoldenRod">9810 Cr</strong><br/><br/>
+				<small>
+					<ul class="list-unstyled">
+						<li>MAJ Janvier : +3270</li>
+						<li>MAJ Fevrier : +3270</li>
+						<li>MAJ Mars : +3270</li>
+					</ul>
+				</small>
+			</div></dd>
+		</dl>
 	</div>
 </article>
