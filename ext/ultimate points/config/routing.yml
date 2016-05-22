@@ -1,3 +1,0 @@
-vipaka_ultimate_points_controller:
-    path: /{name}
-    defaults: { _controller: vipaka.ultimate_points.controller:handle }
