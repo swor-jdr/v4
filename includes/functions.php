@@ -4214,7 +4214,7 @@ function obtain_users_online($item_id = 0, $item = 'forum')
 	}
 
 	// a little discrete magic to cache this for 30 seconds
-	$time = (time() - (intval($config['load_online_time']) * 1440));
+	$time = (time() - (intval($config['load_online_time']) * 86400));
 
 	$sql = 'SELECT s.session_user_id, s.session_ip, s.session_viewonline
 		FROM ' . SESSIONS_TABLE . ' s
