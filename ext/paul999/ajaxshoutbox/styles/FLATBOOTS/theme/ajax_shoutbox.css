@@ -33,7 +33,7 @@ ul.shoutboxlist {
 }
 
 ul.shoutboxlist li {
-    color: #4C5D77;
+    color: #4d4d4d;
     display: block;
     list-style-type: none;
     margin: 0;
@@ -48,7 +48,7 @@ ul.shoutboxlist dl {
 }
 
 ul.shoutboxlist dt {
-    width: 10%;
+    width: auto;
     font-size: 1.1em;
 }
 
@@ -67,13 +67,10 @@ ul.ajaxshoutboxpost dd
     min-height: 20px;
 }
 
-ul.shoutboxlist dd.ajaxshoutbox_date {
-    width: 15%;
-}
 ul.shoutboxlist dd.ajaxshoutbox_delete {
     display: none;
     float: right;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 ul.ajaxshoutboxpost dt {
@@ -82,13 +79,53 @@ ul.ajaxshoutboxpost dt {
     padding-left: 5px;
     min-height: 25px;
 }
+
 ul.ajaxshoutboxpost dd {
     float: right;
     min-height: 25px;
     min-width: 25px;
 }
+
+ul.shoutboxlist dd.ajaxshoutbox_message {
+    font-size: 11px;
+    clear: both;
+}
+
+ul.shoutboxlist dd.ajaxshoutbox_message_with_delete {
+    
+}
+
 #text_shoutbox {
-    width: 75%;
+    width: 100%;
+}
+
+.rtl ul.shoutboxlist dt.ajaxshoutbox_user {
+    margin-left: 0px;
+}
+
+.sidechat li.row:hover dd {
+    border-color: transparent;
+}
+
+.ajaxshoutbox_delete .button2 {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+    background: #A0A0A0;
+    padding: 0;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.sidechat {
+    background: url("./images/shoutbox_top.jpg") repeat-x;
+    padding: 0;
+    border-radius: 0;
+}
+
+.sidechat h3 {
+    margin-top: 5px;
+    padding: 10px 0 2px;
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
@@ -102,5 +139,7 @@ ul.ajaxshoutboxpost dd {
         padding-left: 1px;
         margin-right: 5px !important;
     }
-
+    #text_shoutbox {
+        width: 75%;
+    }
 }
