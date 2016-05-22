@@ -4153,7 +4153,7 @@ function obtain_guest_count($item_id = 0, $item = 'forum')
 	{
 		$reading_sql = '';
 	}
-	$time = (time() - (intval($config['load_online_time']) * 1));
+	$time = (time() - (intval($config['load_online_time']) * 60));
 
 	// Get number of online guests
 
@@ -4164,7 +4164,7 @@ function obtain_guest_count($item_id = 0, $item = 'forum')
 				SELECT DISTINCT s.session_ip
 				FROM ' . SESSIONS_TABLE . ' s
 				WHERE s.session_user_id = ' . ANONYMOUS . '
-					AND s.session_time >= ' . ($time - ((int) ($time % 1))) .
+					AND s.session_time >= ' . ($time - ((int) ($time % 60))) .
 				$reading_sql .
 			')';
 	}
@@ -4173,7 +4173,7 @@ function obtain_guest_count($item_id = 0, $item = 'forum')
 		$sql = 'SELECT COUNT(DISTINCT s.session_ip) as num_guests
 			FROM ' . SESSIONS_TABLE . ' s
 			WHERE s.session_user_id = ' . ANONYMOUS . '
-				AND s.session_time >= ' . ($time - ((int) ($time % 1))) .
+				AND s.session_time >= ' . ($time - ((int) ($time % 60))) .
 			$reading_sql;
 	}
 	$result = $db->sql_query($sql);
