@@ -1,30 +1,9 @@
 <div class="forabg">
-    <div class="inner">
-        <ul class="topiclist">
-            <li class="header">
-                <dl class="icon">
-                    <dt>
-                    <div class="list-inner">{L_AJAX_SHOUTBOX}</div>
-                    </dt>
-                </dl>
-            </li>
-        </ul>
-        <!-- IF S_CAN_POST_SHOUT -->
-        <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post">
-            <input type="hidden" name="sid" value="{SESSION_ID}" />
-            {S_FORM_TOKEN}
-            <ul class="topiclist ajaxshoutboxpost forums">
-                <li class="row">
-                    <dl>
-                        <dt>{L_AJAX_SHOUTBOX_MESSAGE}{L_COLON} <input type="text" name="text_shoutbox" id="text_shoutbox"/>
-                            <input type="submit" name="submit" value="{L_SUBMIT}" class="button2" id="submit_shoutbox">
-                        </dt>
-                        <dd><div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div></dd>
-                    </dl>
-                </li>
-            </ul>
-        </form>
-        <!-- ENDIF -->
+    <div class="panel panel-forum">
+        <div class="panel-heading">
+            <p>Chatbox</p>
+        </div>
+        <div class="panel-body">
         <script>
             var AJAX_SHOUTBOX_POSTS = "{UA_GET_POST_ACTION}";
             var AJAX_SHOUTBOX_POSTS_NEW = "{UA_GET_POST_ACTION_NEW}";
@@ -67,5 +46,21 @@
             </ul>
         </div>
 
+        <!-- IF S_CAN_POST_SHOUT -->
+            <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-inline pull-right-lg">
+                <div class="form-group">
+                    <input type="hidden" name="sid" value="{SESSION_ID}" />
+                    {S_FORM_TOKEN}
+                    <label for="text_shoutbox">Envoyer un message</label>
+                        <input type="text" class="form-control" name="text_shoutbox" id="text_shoutbox" autocomplete="off" />
+                </div>
+                <div class="form-group">                    
+                    <input type="submit" name="submit" value="{L_SUBMIT}" class="btn btn-default pull-right" id="submit_shoutbox">
+                </div>
+                <div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div>
+            </form>
+        </div>
+        
+        <!-- ENDIF -->
     </div>
 </div>

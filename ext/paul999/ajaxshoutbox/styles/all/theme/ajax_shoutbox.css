@@ -104,3 +104,9 @@ ul.ajaxshoutboxpost dd {
     }
 
 }
+
+@media (min-width: 1200px) {
+    .pull-right-lg {
+        float: right;
+    }
+}
