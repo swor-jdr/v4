@@ -390,4 +390,12 @@ img.smilies {
 	width:34px;
 }
 
+/* CHATBOX */
+
+@media (min-width: 1200px) {
+    .pull-right-lg {
+        float: right;
+    }
+}
+
 /* ===[ CSS HOOK BOTTOM ]=== */
