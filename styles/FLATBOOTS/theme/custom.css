@@ -394,7 +394,10 @@ img.smilies {
 
 @media (min-width: 768px) {
     .pull-right-sm {
-        float: right;
+        float: right
+    }
+	.ajaxshoutbox_date {
+    	display:inline-block
     }
 }
 
@@ -411,5 +414,9 @@ img.smilies {
 .ajaxshoutbox_message {
 	font-size: 1.2em
 }
+
+.ajaxshoutbox_date {
+    	display:hidden
+    }
 
 /* ===[ CSS HOOK BOTTOM ]=== */
