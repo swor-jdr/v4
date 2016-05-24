@@ -408,4 +408,8 @@ img.smilies {
     display: none
 }
 
+.ajaxshoutbox_message {
+	font-size: 1.2em
+}
+
 /* ===[ CSS HOOK BOTTOM ]=== */

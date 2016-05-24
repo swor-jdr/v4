@@ -36,11 +36,10 @@
 
         <div class="panel-body">
             <div id="shoutbox-scroll">
-                <ul class="list-unstyled" id="shoutbox_content">
-                    <li class="row" id="copy">
+                <ul class="list-group" id="shoutbox_content">
+                    <li class="list-group-item" id="copy">
                         <dl class="dl-horizontal">
                             <dt data-type="user"></dt>
-                            <dd data-type="date" class="ajaxshoutbox_date"></dd>
     <!--                         <dd data-type="delete" class="ajaxshoutbox_delete">
                                 <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
                                     <input type="hidden" name="sid" value="{SESSION_ID}" />
@@ -51,6 +50,7 @@
                                 </form>
                             </dd> -->
                             <dd data-type="message" class="ajaxshoutbox_message"></dd>
+                            <dd data-type="date" class="ajaxshoutbox_date"></dd>                            
                         </dl>
                     </li>
                 </ul>
