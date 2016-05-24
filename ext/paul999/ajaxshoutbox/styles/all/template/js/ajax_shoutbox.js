@@ -168,8 +168,8 @@
         waitingEarlier = false;
     };
 
-    $("#shoutbox_scroll").scroll(function () {
-        if (!waitingEarlier && $("#shoutbox_scroll").scrollTop() >= $("#shoutbox_content").height() - $("#shoutbox_scroll").height() - 25) {
+    $("#shoutbox-scroll").scroll(function () {
+        if (!waitingEarlier && $("#shoutbox-scroll").scrollTop() >= $("#shoutbox_content").height() - $("#shoutbox-scroll").height() - 25) {
             waitingEarlier = true;
             loadData();
         }
