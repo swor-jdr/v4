@@ -5,7 +5,7 @@
         </div>
         <div class="panel-body">
         <!-- IF S_CAN_POST_SHOUT -->
-            <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-inline pull-right-lg">
+            <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-inline pull-right-sm">
                 <div class="form-group">
                     <input type="hidden" name="sid" value="{SESSION_ID}" />
                     {S_FORM_TOKEN}
@@ -34,20 +34,20 @@
             </ul>
         </noscript>
         <div id="shoutbox_scroll">
-            <ul class="topiclist shoutboxlist forums" id="shoutbox_content">
+            <ul class="list-unstyled" id="shoutbox_content">
                 <li class="row" id="copy">
                     <dl>
                         <dt data-type="user"></dt>
                         <dd data-type="date" class="ajaxshoutbox_date"></dd>
-                        <dd data-type="delete" class="ajaxshoutbox_delete">
+<!--                         <dd data-type="delete" class="ajaxshoutbox_delete">
                             <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
                                 <input type="hidden" name="sid" value="{SESSION_ID}" />
                                 <input data-type="delete-id" type="hidden" name="id" value="" />
                                 <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
                                 <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
-                                <input type="submit" name="delete" value="{L_DELETE}" class="button2" />
+                                <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default" />
                             </form>
-                        </dd>
+                        </dd> -->
                         <dd data-type="message" class="ajaxshoutbox_message"></dd>
                     </dl>
                 </li>
