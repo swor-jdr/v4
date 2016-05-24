@@ -399,12 +399,13 @@ img.smilies {
 }
 
 #shoutbox-scroll {
-    max-height: 200px;
-    overflow-y: scroll;
+    max-height:200px;
+    overflow-y:scroll;
+    overflow-x:hidden
 }
 
 #copy { /* This element is used to copy data from. Do not show */
-    display: none;
+    display: none
 }
 
 /* ===[ CSS HOOK BOTTOM ]=== */

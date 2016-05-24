@@ -33,32 +33,35 @@
                 </li>
             </ul>
         </noscript>
-        <div id="shoutbox-scroll">
-            <ul class="list-unstyled" id="shoutbox_content">
-                <li class="row" id="copy">
-                    <dl class="dl-horizontal">
-                        <dt data-type="user"></dt>
-                        <dd data-type="date" class="ajaxshoutbox_date"></dd>
-<!--                         <dd data-type="delete" class="ajaxshoutbox_delete">
-                            <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
-                                <input type="hidden" name="sid" value="{SESSION_ID}" />
-                                <input data-type="delete-id" type="hidden" name="id" value="" />
-                                <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
-                                <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
-                                <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default" />
-                            </form>
-                        </dd> -->
-                        <dd data-type="message" class="ajaxshoutbox_message"></dd>
-                    </dl>
-                </li>
-            </ul>
-<!--             <ul class="list-unstyled" id="ajaxshoutbox_loadafter">
-                <li class="row">
-                    <dl>
-                        <dt><div class="ajaxshoutbox_loadingbar"></div></dt>
-                    </dl>
-                </li>
-            </ul> -->
+
+        <div class="panel-body">
+            <div id="shoutbox-scroll">
+                <ul class="list-unstyled" id="shoutbox_content">
+                    <li class="row" id="copy">
+                        <dl class="dl-horizontal">
+                            <dt data-type="user"></dt>
+                            <dd data-type="date" class="ajaxshoutbox_date"></dd>
+    <!--                         <dd data-type="delete" class="ajaxshoutbox_delete">
+                                <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
+                                    <input type="hidden" name="sid" value="{SESSION_ID}" />
+                                    <input data-type="delete-id" type="hidden" name="id" value="" />
+                                    <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
+                                    <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
+                                    <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default" />
+                                </form>
+                            </dd> -->
+                            <dd data-type="message" class="ajaxshoutbox_message"></dd>
+                        </dl>
+                    </li>
+                </ul>
+    <!--             <ul class="list-unstyled" id="ajaxshoutbox_loadafter">
+                    <li class="row">
+                        <dl>
+                            <dt><div class="ajaxshoutbox_loadingbar"></div></dt>
+                        </dl>
+                    </li>
+                </ul> -->
+            </div>
         </div>
 
     </div>
