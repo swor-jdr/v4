@@ -10,19 +10,19 @@
 *****************************************************************/
 /* ===[ CSS HOOK TOP ]=== */
 body {
-    color: #e7e7e7;
-    margin: 0;
-    font-family: 'Roboto','Arial','Helvetica',sans-serif;
-    background-color: #171818;
-    background: url("./images/body_bg.jpg") repeat fixed 0 0 #423A36;
+	color: #e7e7e7;
+	margin: 0;
+	font-family: 'Roboto','Arial','Helvetica',sans-serif;
+	background-color: #171818;
+	background: url("./images/body_bg.jpg") repeat fixed 0 0 #423A36;
 }
 
 .masthead:before {
-    /*background: url("./images/header_fond.jpg") no-repeat #F1A12E;*/
+	/*background: url("./images/header_fond.jpg") no-repeat #F1A12E;*/
 }
 .masthead:before {
 	-webkit-animation-iteration-count: 0;
-    animation-iteration-count: 0;
+	animation-iteration-count: 0;
 }
 /* BBOOTS / FLATBOOTS Custom Colors Generated With COLORIZE - www.sitesplat.com - copyright (c) 2014 SiteSplat.com */
 .logo span {
@@ -216,7 +216,7 @@ blockquote.pull-right {
 /* FLATBOOTS Custom Color Generated with COLORIZE */
 /* FLATBOOTS Forum Panel Heading */
 .panel-forum > .panel-heading {
-/*	background-color: #3b5982;*/
+	/*	background-color: #3b5982;*/
 }
 
 .panel-body {
@@ -298,8 +298,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 /* SEARCH MEMBERS PM */
 
 .well {
-    background-color: #191919;
-    border: 1px solid #28292B;
+	background-color: #191919;
+	border: 1px solid #28292B;
 }
 
 /* DIALOG OPEN WINDOW */
@@ -321,46 +321,46 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 /* CUSTOM NEW MESSAGE TAG */
 
 .table-primary tbody tr:nth-child(n+1) td[title="Messages non lus"] .forumtitle::after {
-    content: "Nouveau";
-    display: inline-block;
-    margin-left: 1em;
-    padding: 0.4em 0.8em;
-    background: #292A2A;
-    color: #F1A12E;
-    font-family: 'Asap','Arial','Helvetica',sans-serif;
-    font-size: 11px;
-    line-height: 12px;
-    border-radius: 4px;
+	content: "Nouveau";
+	display: inline-block;
+	margin-left: 1em;
+	padding: 0.4em 0.8em;
+	background: #292A2A;
+	color: #F1A12E;
+	font-family: 'Asap','Arial','Helvetica',sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	border-radius: 4px;
 }
 
 /* CHARACTER SHEET */
 
 ul.list-unstyled.list-info.text-muted li {
-    margin-top: 20px;
-    line-height: 18px;
-    text-align: justify;
-    background: #28292B;
-    padding: 5px;
-    border-radius: 4px;
+	margin-top: 20px;
+	line-height: 18px;
+	text-align: justify;
+	background: #28292B;
+	padding: 5px;
+	border-radius: 4px;
 }
 
 ul.list-unstyled.list-info.text-muted label {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 /* GROUPE DISPLAY ON BOTTOM */
 
 .group-item {
-    font-size: 1.1rem;
-    display: inline-block;
-    padding: .4em .8em;
-    vertical-align: middle;
-    border-color: #5c6166;
-    border-radius: 0.325em;
-    background-color: #5c6166;
-    font-family: 'Asap','Arial','Helvetica',sans-serif;
-    font-size: 11px;
-    line-height: 12px;
+	font-size: 1.1rem;
+	display: inline-block;
+	padding: .4em .8em;
+	vertical-align: middle;
+	border-color: #5c6166;
+	border-radius: 0.325em;
+	background-color: #5c6166;
+	font-family: 'Asap','Arial','Helvetica',sans-serif;
+	font-size: 11px;
+	line-height: 12px;
 }
 
 /* POLL CUSTOMIZE */
@@ -393,26 +393,26 @@ img.smilies {
 /* CHATBOX */
 
 @media (min-width: 768px) {
-    .pull-right-sm {
-        float: right
-    }
+	.pull-right-sm {
+		float: right
+	}
 }
 
 #shoutbox-scroll {
-    max-height:330px;
-    overflow-y:scroll;
-    overflow-x:hidden
+	max-height:330px;
+	overflow-y:scroll;
+	overflow-x:hidden
 }
 
 #copy { /* This element is used to copy data from. Do not show */
-    display: none
+	display: none
 }
 
 #shoutbox_content {
-    background: #121314;
-    border:2px solid #28292b;
-    border-radius: 4px;
-    padding-top:10px
+	background: #121314;
+	border:2px solid #28292b;
+	border-radius: 4px;
+	padding-top:10px
 }
 
 .ajaxshoutbox_message {
@@ -421,11 +421,14 @@ img.smilies {
 
 @media (max-width: 768px) {
 	.ajaxshoutbox_date {
-   		display:none
-   	}
-   	.ajaxshoutbox_message {
+		display:none
+	}
+	.ajaxshoutbox_message {
 		padding:0 10px;
-}
+	}
+	dt a.username-coloured {
+		padding: 0 10px;
+	}
 }
 
 /* ===[ CSS HOOK BOTTOM ]=== */
