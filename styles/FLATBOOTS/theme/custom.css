@@ -396,9 +396,6 @@ img.smilies {
     .pull-right-sm {
         float: right
     }
-	.ajaxshoutbox_date {
-    	display:inline-block
-    }
 }
 
 #shoutbox-scroll {
@@ -422,8 +419,13 @@ img.smilies {
 	font-size: 1.2em
 }
 
-.ajaxshoutbox_date {
-   	display:none
+@media (max-width: 768px) {
+	.ajaxshoutbox_date {
+   		display:none
+   	}
+   	.ajaxshoutbox_message {
+		padding:0 10px;
+}
 }
 
 /* ===[ CSS HOOK BOTTOM ]=== */
