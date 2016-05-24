@@ -402,7 +402,7 @@ img.smilies {
 }
 
 #shoutbox-scroll {
-    max-height:200px;
+    max-height:330px;
     overflow-y:scroll;
     overflow-x:hidden
 }
@@ -411,12 +411,19 @@ img.smilies {
     display: none
 }
 
+#shoutbox_content {
+    background: #121314;
+    border:2px solid #28292b;
+    border-radius: 4px;
+    padding-top:10px
+}
+
 .ajaxshoutbox_message {
 	font-size: 1.2em
 }
 
 .ajaxshoutbox_date {
-    	display:hidden
-    }
+   	display:none
+}
 
 /* ===[ CSS HOOK BOTTOM ]=== */
