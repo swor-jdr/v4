@@ -417,7 +417,12 @@ img.smilies {
 
 #shoutbox_content blockquote {
     font-size: 1em;
-    border-left-color: black;
+    border-left-color: #121314;
+    margin:0;
+}
+
+#shoutbox_content button, html input[type=button], input[type=reset], input[type=submit] {
+	margin-right: 2%;
 }
 
 @media (max-width: 768px) {
