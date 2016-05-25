@@ -222,7 +222,7 @@ class main_controller
 	}
 
 	/**
-	 * Get the last 15 shouts
+	 * Get the last 25 shouts
 	 *
 	 * @return \Symfony\Component\HttpFoundation\JsonResponse
 	 */
@@ -239,7 +239,7 @@ class main_controller
 					WHERE
 						u.user_id = c.user_id
 					ORDER BY post_time DESC';
-		$result = $this->db->sql_query_limit($sql, 15);
+		$result = $this->db->sql_query_limit($sql, 25);
 
 		return $this->returnPosts($result);
 	}
