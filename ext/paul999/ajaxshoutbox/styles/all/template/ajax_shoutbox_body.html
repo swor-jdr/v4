@@ -39,16 +39,16 @@
             <ul class="list-unstyled" id="shoutbox_content">
                 <li id="copy">
                     <blockquote>
-                        <div data-type="user"></div>
-                        <div data-type="date" class="ajaxshoutbox_date"></div> :
-                        <div data-type="delete" class="ajaxshoutbox_delete">
+                        <span data-type="user"></span>
+                        <span data-type="date" class="ajaxshoutbox_date"></span> :
+                        <form data-type="delete" class="ajaxshoutbox_delete">
                             <input type="hidden" name="sid" value="{SESSION_ID}" />
                                 <input data-type="delete-id" type="hidden" name="id" value="" />
                                 <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
                                 <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
                                 <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default btn-xs pull-right" />
-                        </div>
-                        <div data-type="message" class="ajaxshoutbox_message"></div>
+                        </form>
+                        <span data-type="message" class="ajaxshoutbox_message"></span>
                     </blockquote>
                 </li>
             </ul>
