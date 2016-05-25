@@ -41,13 +41,15 @@
                     <blockquote>
                         <span data-type="user"></span>
                         <span data-type="date" class="ajaxshoutbox_date"></span> :
-                        <form data-type="delete" class="ajaxshoutbox_delete">
-                            <input type="hidden" name="sid" value="{SESSION_ID}" />
+                        <span data-type="delete" class="ajaxshoutbox_delete">
+                            <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
+                                <input type="hidden" name="sid" value="{SESSION_ID}" />
                                 <input data-type="delete-id" type="hidden" name="id" value="" />
                                 <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
                                 <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
                                 <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default btn-xs pull-right" />
-                        </form>
+                            </form>
+                        </span>
                         <span data-type="message" class="ajaxshoutbox_message"></span>
                     </blockquote>
                 </li>
