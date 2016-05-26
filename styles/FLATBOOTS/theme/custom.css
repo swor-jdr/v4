@@ -425,10 +425,14 @@ img.smilies {
     box-shadow: -1px 2px 5px 3px rgba(0, 0, 0, 0.3) inset;
 }
 
+.show-msg-cb {
+	display: inline;
+}
+
 .delete-btn-cb {
-	display:inline-block;
-	float:right;
-	margin:0 5px;
+    display: inline-block;
+    float: right;
+    margin: 0 10px;
 }
 
 @media (max-width: 768px) {
