@@ -15,7 +15,6 @@
             <div class="form-group">                    
                 <input type="submit" name="submit" value="{L_SUBMIT}" class="btn btn-default pull-right" id="submit_shoutbox">
             </div>
-            <div class="ajaxshoutbox_loadingbar" id="ajaxshoutbox_loadbefore"></div>
         </form>
     <!-- ENDIF -->
     </div>
@@ -39,14 +38,14 @@
             <ul class="list-unstyled" id="shoutbox_content">
                 <li id="copy">
                     <blockquote>
-                        <span data-type="user" class="text-uppercase"></span> :
+                        <span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span>
                         <dd data-type="delete" class="ajaxshoutbox_delete">
                             <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post">
                                 <input type="hidden" name="sid" value="{SESSION_ID}" />
                                 <input data-type="delete-id" type="hidden" name="id" value="" />
                                 <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
                                 <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
-                                <input type="submit" name="delete" value="{L_DELETE}" class="button2" />
+                                <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default pull-right" />
                             </form>
                         </dd>
                         <span data-type="message" class="ajaxshoutbox_message"></span>

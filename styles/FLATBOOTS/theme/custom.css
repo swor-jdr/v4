@@ -432,6 +432,9 @@ img.smilies {
 	#shoutbox_content a.username-coloured {
 		display:block;
 	}
+	.shoutbox-two-dot {
+		display:none;
+	}
 }
 
 .ajaxshoutbox_loadingbar {
