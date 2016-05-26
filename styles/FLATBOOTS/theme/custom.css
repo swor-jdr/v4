@@ -435,6 +435,13 @@ img.smilies {
 	.shoutbox-two-dot {
 		display:none;
 	}
+	.ajaxshoutbox_delete {
+		display:none;
+	}
+}
+
+blockquote .small, blockquote footer, blockquote small {
+	clear:both;
 }
 
 .ajaxshoutbox_loadingbar {
