@@ -433,8 +433,7 @@ img.smilies {
 	.ajaxshoutbox_date {
 		display:none
 	}
-	a.username-coloured {
-		padding: 0 10px;
+	#shoutbox_content a.username-coloured {
 		display:block;
 	}
 }
