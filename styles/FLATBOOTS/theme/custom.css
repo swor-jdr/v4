@@ -425,10 +425,6 @@ img.smilies {
     box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
 }
 
-#shoutbox_content button, html input[type=button], input[type=reset], input[type=submit] {
-	margin-right: 2%;
-}
-
 @media (max-width: 768px) {
 	.ajaxshoutbox_date {
 		display:none
