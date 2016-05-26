@@ -430,9 +430,7 @@ img.smilies {
 }
 
 .delete-btn-cb {
-    display: inline-block;
     float: right;
-    margin: 0 10px;
 }
 
 @media (max-width: 768px) {
