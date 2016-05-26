@@ -433,12 +433,26 @@ img.smilies {
 	.ajaxshoutbox_date {
 		display:none
 	}
-	.ajaxshoutbox_message {
-		padding:0 10px;
-	}
-	dt a.username-coloured {
+	a.username-coloured {
 		padding: 0 10px;
+		display:block;
 	}
+}
+
+.ajaxshoutbox_loadingbar {
+    background-image: url("./images/ajax-loader.gif");
+    height: 16px;
+    width: 16px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#ajaxshoutbox_loadbefore, #ajaxshoutbox_loadafter {
+    display: none;
+}
+#ajaxshoutbox_loadbefore {
+    height: 16px;
+    width: 16px;
 }
 
 /* SCROLLBAR */
