@@ -37,13 +37,13 @@
         <div id="shoutbox-scroll">
             <ul class="list-unstyled" id="shoutbox_content">
                 <li id="copy">
-                    <blockquote>
+                    <div class="msg-cb">
                     <div class="show-msg-cb">
                         <span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span></dt>
                         <span data-type="message" class="ajaxshoutbox_message"></span>
                         <em data-type="date" class="ajaxshoutbox_date"></em>
                     </div>
-                    <div class="delete-btn-cb">
+                    <div class="delete-msg-cb">
                             <span data-type="delete" class="ajaxshoutbox_delete">
                                 <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post" class="form-inline">
                                         <input type="hidden" name="sid" value="{SESSION_ID}" />
