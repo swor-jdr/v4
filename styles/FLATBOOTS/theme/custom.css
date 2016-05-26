@@ -387,7 +387,7 @@ ul.list-unstyled.list-info.text-muted label {
 }
 
 img.smilies {
-	width:34px;
+	width:24px;
 }
 
 /* CHATBOX */
@@ -422,7 +422,7 @@ img.smilies {
     padding: 5px;
     margin: 0 0 3px 0;
     background: #121314;
-    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -1px 2px 5px 3px rgba(0, 0, 0, 0.3) inset;
 }
 
 @media (max-width: 768px) {
@@ -438,26 +438,6 @@ img.smilies {
 	.ajaxshoutbox_delete {
 		display:none;
 	}
-}
-
-blockquote .small, blockquote footer, blockquote small {
-	clear:both;
-}
-
-.ajaxshoutbox_loadingbar {
-    background-image: url("./images/ajax-loader.gif");
-    height: 16px;
-    width: 16px;
-    margin-left: auto ;
-    margin-right: auto ;
-}
-
-#ajaxshoutbox_loadbefore, #ajaxshoutbox_loadafter {
-    display: none;
-}
-#ajaxshoutbox_loadbefore {
-    height: 16px;
-    width: 16px;
 }
 
 /* SCROLLBAR */

@@ -38,20 +38,21 @@
             <ul class="list-unstyled" id="shoutbox_content">
                 <li id="copy">
                     <blockquote>
-                        <span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span>
-                        <span data-type="message" class="ajaxshoutbox_message"></span>
-                        <span data-type="delete" class="ajaxshoutbox_delete pull-right">
-                            <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post" class="form-inline">
-                                <div class="form-group">
-                                    <input type="hidden" name="sid" value="{SESSION_ID}" />
-                                    <input data-type="delete-id" type="hidden" name="id" value="" />
-                                    <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
-                                    <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
-                                    <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default btn-xs" />
-                                </div>
-                            </form>
-                        </span>
-                        <em data-type="date" class="ajaxshoutbox_date pull-right"></em>
+                        <dl "dl-horizontal">
+                            <dt><span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span></dt>
+                            <dd><span data-type="message" class="ajaxshoutbox_message"></span> <em data-type="date" class="ajaxshoutbox_date pull-right"></em></dd>
+                            <span data-type="delete" class="ajaxshoutbox_delete pull-right">
+                                <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post" class="form-inline">
+                                    <div class="form-group">
+                                        <input type="hidden" name="sid" value="{SESSION_ID}" />
+                                        <input data-type="delete-id" type="hidden" name="id" value="" />
+                                        <input data-type="delete-form-time" type="hidden" name="creation_time" value="" />
+                                        <input data-type="delete-form-token" type="hidden" name="form_token" value="" />
+                                        <input type="submit" name="delete" value="{L_DELETE}" class="btn btn-default btn-xs" />
+                                    </div>
+                                </form>
+                            </span>
+                        </dl>
                     </blockquote>
                 </li>
             </ul>
