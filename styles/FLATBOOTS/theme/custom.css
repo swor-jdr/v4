@@ -434,6 +434,8 @@ img.smilies {
 
 em.ajaxshoutbox_date {
 	float:right;
+	color: #878787;
+	margin-left: 5px;
 }
 
 @media (max-width: 768px) {
