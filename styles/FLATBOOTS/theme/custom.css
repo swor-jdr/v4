@@ -454,9 +454,9 @@ em.ajaxshoutbox_date {
 /* SPECIAL EVENTS */
 
 .special-event {
-	position: absolute;
-    right: 20%;
-    top: 150%;
+    margin-left: 915px;
+    position: absolute;
+    top: 153%;
     color: #E91E63;
     text-align: center;
     display: block;
@@ -475,6 +475,13 @@ em.ajaxshoutbox_date {
     to {
         transform:scale(1.1);
     }
+}
+
+@media (max-width: 1200px) {
+	.special-event {
+		margin-left: 0;
+		right: 45px;
+	}
 }
 
 @media (max-width: 768px) {
