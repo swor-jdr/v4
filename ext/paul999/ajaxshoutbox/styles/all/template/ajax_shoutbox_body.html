@@ -38,13 +38,7 @@
             <ul class="list-unstyled" id="shoutbox_content">
                 <li id="copy">
                     <div class="msg-cb">
-                    <div class="show-msg-cb">
-                        <span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span>
-                        <em data-type="date" class="ajaxshoutbox_date"></em>
-                        <span data-type="message" class="ajaxshoutbox_message"></span>
-                        
-                    </div>
-                    <div class="delete-msg-cb">
+                        <div class="delete-msg-cb">
                             <span data-type="delete" class="ajaxshoutbox_delete">
                                 <form action="{U_DELETE_SHOUTBOX}" data-type="submit-delete" method="post" class="btn btn-xs">
                                         <input type="hidden" name="sid" value="{SESSION_ID}" />
@@ -55,7 +49,12 @@
                                 </form>
                             </span>
                         </div>
-                    </blockquote>
+                        <div class="show-msg-cb">
+                            <span data-type="user" class="text-uppercase"></span> <span class="shoutbox-two-dot">:</span>
+                            <em data-type="date" class="ajaxshoutbox_date"></em>
+                            <span data-type="message" class="ajaxshoutbox_message"></span>    
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
