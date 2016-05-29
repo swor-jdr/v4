@@ -455,14 +455,14 @@ em.ajaxshoutbox_date {
 
 .special-event {
     position: absolute;
-    right: 4%;
+    right: 20%;
     top: 20%;
     color: #ea6459;
     text-align: center;
     padding: 5px 15px;
     display: block;
     border-radius: 4px;
-    text-shadow: 0 1px 5px rgba(0,0,0,.8)
+    text-shadow: 0 1px 6px rgba(0,0,0,1)
     animation: pulse 0.6s infinite linear alternate;
     -webkit-animation: pulse 0.6s infinite linear alternate; 
 }
