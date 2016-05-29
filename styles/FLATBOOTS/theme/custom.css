@@ -457,12 +457,10 @@ em.ajaxshoutbox_date {
     position: absolute;
     right: 20%;
     top: 20%;
-    color: #ea6459;
+    color: #E91E63;
     text-align: center;
-    padding: 5px 15px;
     display: block;
-    border-radius: 4px;
-    text-shadow: 0 1px 6px rgba(0,0,0,1)
+    text-shadow: 0 1px 3px rgba(0,0,0,1);
     animation: pulse 0.6s infinite linear alternate;
     -webkit-animation: pulse 0.6s infinite linear alternate; 
 }
