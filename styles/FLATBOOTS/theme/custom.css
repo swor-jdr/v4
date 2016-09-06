@@ -519,3 +519,9 @@ em.ajaxshoutbox_date {
 }
 
 /* ===[ CSS HOOK BOTTOM ]=== */
+
+/* TEXT EDITITON */
+
+textarea.form-control {
+    height: 368px;
+}
