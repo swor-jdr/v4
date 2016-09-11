@@ -5,7 +5,7 @@
     </div>
     <div class="panel-body">
         <!-- IF S_CAN_POST_SHOUT -->
-        <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-horizontal">
+        <!--         <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-horizontal">
             <div class="input-group">
                 <input type="hidden" name="sid" value="{SESSION_ID}" />
                 {S_FORM_TOKEN}
@@ -13,6 +13,17 @@
                 <span class="input-group-btn">
                     <input type="submit" name="submit" value="Envoyer" class="btn btn-default pull-right" id="submit_shoutbox"> 
                 </span>
+            </div>
+        </form> -->
+        <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-inline pull-right-sm">
+            <div class="form-group">
+                <input type="hidden" name="sid" value="{SESSION_ID}" />
+                {S_FORM_TOKEN}
+                <label for="text_shoutbox">Envoyer un message</label>
+                <input type="text" class="form-control" name="text_shoutbox" id="text_shoutbox" autocomplete="off" />
+            </div>
+            <div class="form-group">                    
+                <input type="submit" name="submit" value="{L_SUBMIT}" class="btn btn-default pull-right" id="submit_shoutbox">
             </div>
         </form>
     <!-- ENDIF -->
