@@ -5,19 +5,12 @@
     </div>
     <div class="panel-body">
         <!-- IF S_CAN_POST_SHOUT -->
-        <form action="/app.php/ajaxshoutbox/post" id="ajaxshoutbox_post" method="post" class="form-horizontal">
-            <div class="form-group">
-                <input type="hidden" name="sid" value="24985d81c8cd5029996bd70720927e0a">
-                <input type="hidden" name="creation_time" value="1473603792">
-                <input type="hidden" name="form_token" value="5f294c5b6e699ee109eabd9dfefe8deb82e2cc4f">
-
-                <label class="col-sm-6 control-label">Envoyer un message</label>
-                <div class="col-sm-6">
-                    <input type="text" class="form-control" name="text_shoutbox" id="text_shoutbox" autocomplete="off">
-                </div>
-            </div>
-            <div class="input-group-btn">
-                <input type="submit" name="submit" value="Envoyer" class="btn btn-default pull-right" id="submit_shoutbox"> 
+        <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-horizontal">
+            <div class="input-group">
+                <input type="text" class="form-control" name="text_shoutbox" id="text_shoutbox" autocomplete="off" placeholder="Envoyer un message...">
+                <span class="input-group-btn">
+                    <input type="submit" name="submit" value="Envoyer" class="btn btn-default pull-right" id="submit_shoutbox"> 
+                </span>
             </div>
         </form>
     <!-- ENDIF -->
