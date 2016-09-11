@@ -7,6 +7,8 @@
         <!-- IF S_CAN_POST_SHOUT -->
         <form action="{U_SUBMIT_SHOUTBOX}" id="ajaxshoutbox_post" method="post" class="form-horizontal">
             <div class="input-group">
+                <input type="hidden" name="sid" value="{SESSION_ID}" />
+                {S_FORM_TOKEN}
                 <input type="text" class="form-control" name="text_shoutbox" id="text_shoutbox" autocomplete="off" placeholder="Envoyer un message...">
                 <span class="input-group-btn">
                     <input type="submit" name="submit" value="Envoyer" class="btn btn-default pull-right" id="submit_shoutbox"> 
