@@ -1886,7 +1886,7 @@ a.list-group-item-warning:hover,a.list-group-item-warning:focus {
 }
 
 .form-control:focus {
-	border-color:#969fa1;
+	border-color:#595c61;
 	-webkit-box-shadow:none;
 	box-shadow:none
 }

@@ -190,7 +190,7 @@
             console.log("Posting message");
 
             $("#text_shoutbox").val('');
-            $("#submit_shoutbox").hide();
+            // $("#submit_shoutbox").hide();
             clearTimeout(timeout);
 
             return true;
