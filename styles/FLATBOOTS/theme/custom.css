@@ -525,3 +525,7 @@ em.ajaxshoutbox_date {
 textarea.form-control {
     height: 368px;
 }
+
+#text_shoutbox {
+	width:100%;
+}
