@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 	'FLTL_EXCLUDED_FORUMS'			=> 'Exclude forums from the Fancy Lazy Topics loader',
 	'FLTL_EXCLUDED_FORUMS_EXPLAIN'	=> 'Hold shift or control for selecting more forums',
 	
-	'READ_MORE'						=> 'READ MORE',
-	'BACK_TO_START'					=> 'BACK TO START',
-	'VIEW_MORE_TOPICS'				=> 'VIEW MORE TOPICS'
+	'READ_MORE'						=> 'LIRE PLUS',
+	'BACK_TO_START'					=> 'RETOUR AU DEBUT',
+	'VIEW_MORE_TOPICS'				=> 'VOIR PLUS DE TOPICS'
 ));
