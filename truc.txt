@@ -1,0 +1,6 @@
+curl -X POST -u 4c280c6b-2239-4210-aa82-60ed10006897:Gy1xO4tDENY5 \
+--header "Content-Type: application/json" \
+--header "Accept: audio/wav " \
+--data "{\"text\":\"Bonjour, je suis là pour exterminer l'espèce humaine. lol.\"}" \
+--output bonjour.wav \
+"https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=fr-FR_ReneeVoice"
