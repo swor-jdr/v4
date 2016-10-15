@@ -530,3 +530,9 @@ textarea.form-control {
 	width: 100%;
     border-radius: 4px 0 0 4px; /*fix to fit to bootstrap theme*/
 }
+
+/* TABLE WIDTH AUTO */
+
+.table-auto {
+   width: auto !important;
+}
