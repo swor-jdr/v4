@@ -535,4 +535,5 @@ textarea.form-control {
 
 .table-auto {
    width: auto !important;
+   padding:8px;
 }
