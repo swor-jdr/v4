@@ -5,3 +5,6 @@ cache
 images/avatars/upload
 images/cb
 images/smilies
+config.php
+images/shop_icons/*.png
+vendor
