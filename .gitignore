@@ -8,3 +8,6 @@ images/smilies
 config.php
 images/shop_icons/*.png
 vendor
+*.sql.gz
+*.sql
+configg.php
