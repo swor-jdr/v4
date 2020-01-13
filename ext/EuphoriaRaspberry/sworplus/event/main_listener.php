@@ -61,7 +61,7 @@ class main_listener implements EventSubscriberInterface
         $category = $forum_parents[1][0];
         $mode = $event['mode'];
 
-        if ($mode === 'edit' || $category !== 'Le jeu') {
+        if ($mode === 'edit' || $category == 'Le Jeu') {
             return true;
         }
 
