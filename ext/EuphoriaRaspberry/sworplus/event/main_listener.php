@@ -58,10 +58,10 @@ class main_listener implements EventSubscriberInterface
     public function track_rp($event)
     {
         $forum_parents = unserialize($event['data']['forum_parents']);
-        $category = $forum_parents[1][0];
+        $category = $forum_parents[14][0];
         $mode = $event['mode'];
 
-        if ($mode === 'edit' || $category == 'Le Jeu') {
+        if ($mode === 'edit' || $category !== 'Le Jeu') {
             return true;
         }
 
